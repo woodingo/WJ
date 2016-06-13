@@ -1,0 +1,1315 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"pos",
+				"pos-r	position: relative;"
+			],
+			[
+				"box-",
+				"box-shadow"
+			],
+			[
+				"mx",
+				"max-width"
+			],
+			[
+				"ma",
+				"max-width"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"font-",
+				"font-style"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"trans",
+				"transform"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"mx-",
+				"max-height"
+			],
+			[
+				"border-bo",
+				"border-bottom"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"backg",
+				"background"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"border-lef",
+				"border-left"
+			],
+			[
+				"border-le",
+				"border-left"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"links",
+				"links"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"rb",
+				"rgba(r,g,b,a)"
+			],
+			[
+				"min-",
+				"min-width"
+			],
+			[
+				"p",
+				"padding-right"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"border-b",
+				"border-bottom"
+			],
+			[
+				"po",
+				"pos-r	position: relative;"
+			],
+			[
+				"bak",
+				"background"
+			],
+			[
+				"link",
+				"links"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"overf",
+				"overflow"
+			],
+			[
+				"border-col",
+				"border-color"
+			],
+			[
+				"wa-cart-pan",
+				"wa-cart-panel-content"
+			],
+			[
+				"wa-cart-",
+				"wa-cart-panel"
+			],
+			[
+				"border-ra",
+				"border-radius"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"t",
+				"ta	text-align: ${1:left};"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"fon-",
+				"font-size"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"color-g",
+				"color-gray-light-medium"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"bor",
+				"border-color"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"co",
+				"cover"
+			],
+			[
+				"border-",
+				"border-radius"
+			],
+			[
+				"block",
+				"inline-block"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"bol",
+				"bold"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"tex-",
+				"text-align"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"rgb",
+				"rgba(r,g,b,a)"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"color-gra",
+				"color-gray-dark"
+			],
+			[
+				"color-gray-",
+				"color-gray-light-medium"
+			],
+			[
+				"z-",
+				"z-index"
+			],
+			[
+				"color-gray-dar",
+				"color-gray-dark-medium"
+			],
+			[
+				"colo-gr",
+				"color-gray-dark-medium"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"list-s",
+				"list-style-type"
+			],
+			[
+				"padding-",
+				"padding-top"
+			],
+			[
+				"color-gra-",
+				"color-gray-medium"
+			],
+			[
+				"box-s",
+				"box-sizing"
+			],
+			[
+				"padi",
+				"padding-right"
+			],
+			[
+				"over",
+				"overflow"
+			],
+			[
+				"color-gray-me",
+				"color-gray-medium"
+			],
+			[
+				"color-gray-light",
+				"color-gray-light-medium"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"c",
+				"class	Attr"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"inl",
+				"inline-block"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "layouts/footer.html",
+			"settings":
+			{
+				"buffer_size": 5430,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "layouts/header.html",
+			"settings":
+			{
+				"buffer_size": 2875,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/style.less",
+			"settings":
+			{
+				"buffer_size": 5762,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/settings.css.lens",
+			"settings":
+			{
+				"buffer_size": 19546,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.lens",
+			"settings":
+			{
+				"buffer_size": 14563,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "info.json",
+			"settings":
+			{
+				"buffer_size": 29508,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "albums.lens",
+			"settings":
+			{
+				"buffer_size": 1662,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Woody/Google Диск/Design/Other/portfolio/html/index.html",
+			"settings":
+			{
+				"buffer_size": 16362,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Searching 92 files for \"grid\"\n\n0 matches\n\nSearching 92 files for \"<koken:img lazy=\"true\" fade=\"true\" />\"\n\n0 matches\n\nSearching 92 files for \"primary\"\n\nC:\\xampp\\htdocs\\koken\\storage\\themes\\WJ\\info.json:\n  884  					\"type\": \"select\",\n  885  					\"options\": [\n  886: 						{ \"label\": \"Primary cover\", \"value\": \"cover\" },\n  887  						{ \"label\": \"Mosaic\", \"value\": \"mosaic\" },\n  888  						{ \"label\": \"Slideshow\", \"value\": \"slideshow\" }\n\nC:\\xampp\\htdocs\\koken\\storage\\themes\\WJ\\js\\less.js:\n 3105              imports.contents[fileInfo.filename] = str;\n 3106  \n 3107:             // Start with the primary rule.\n 3108              // The whole syntax tree is held under a Ruleset node,\n 3109              // with the `root` property set to true, so no `{}` are\n ....\n 3119                  });\n 3120  \n 3121:                 root = new(tree.Ruleset)(null, this.parsers.primary());\n 3122                  root.root = true;\n 3123                  root.firstRoot = true;\n ....\n 3212          parsers: parsers = {\n 3213              //\n 3214:             // The `primary` rule is the *entry* and *exit* point of the parser.\n 3215              // The rules here can appear at any level of the parse tree.\n 3216              //\n 3217              // The recursive nature of the grammar is an interplay between the `block`\n 3218:             // rule, which represents `{ ... }`, the `ruleset` rule, and this `primary` rule,\n 3219              // as represented by this simplified grammar:\n 3220              //\n 3221:             //     primary  →  (ruleset | rule)+\n 3222              //     ruleset  →  selector+ block\n 3223:             //     block    →  '{' primary '}'\n 3224              //\n 3225:             // Only at one point is the primary rule not called from the\n 3226              // block rule: at the root level.\n 3227              //\n 3228:             primary: function () {\n 3229                  var mixin = this.mixin, root = [], node;\n 3230  \n ....\n 4034              //\n 4035              // The `block` rule is used by `ruleset` and `mixin.definition`.\n 4036:             // It's a wrapper around the `primary` rule, with added `{}`.\n 4037              //\n 4038              block: function () {\n 4039                  var content;\n 4040:                 if (parserInput.$char('{') && (content = this.primary()) && parserInput.$char('}')) {\n 4041                      return content;\n 4042                  }\n\n11 matches across 2 files\n",
+			"settings":
+			{
+				"buffer_size": 2449,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "layouts/album_detail_thumbs.html",
+			"settings":
+			{
+				"buffer_size": 1388,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/kicons.css",
+			"settings":
+			{
+				"buffer_size": 1806,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<div class=\"at_display_char\">\n	<div class=\"at_display_visible\">\n		Характеристика 1, Характеристика 2\n	</div>\n	<div class=\"at_display_show_more\">\n		Другие варианты\n	</div>\n	<div class=\"at_display_hidden\">\n		Характеристика 3, Характеристика 4\n	</div>\n</div>",
+			"settings":
+			{
+				"buffer_size": 255,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 196.0,
+		"last_filter": "html",
+		"selected_items":
+		[
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"h",
+				"Set Syntax: HTML"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 432.0
+	},
+	"console":
+	{
+		"height": 188.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/xampp/htdocs/koken/storage/themes/WJ",
+		"/C/xampp/htdocs/koken/storage/themes/WJ/css"
+	],
+	"file_history":
+	[
+		"/C/xampp/htdocs/wantam/design/themes/wantam/sublime.sublime-project",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/addons/at_design/views/at_profiles/want_present.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/addons/at_design/views/at_profiles/scroller.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/addons/rus_theme_style/blocks/products/products_scroller_advanced.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/blocks/list_templates/grid_list.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/blocks/products/products_scroller.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/styles/data/wantam.less",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/css/styles.less",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/addons/my_changes/hooks/products/view_main_info.override.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/views/products/quick_view.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/views/tabs/components/product_tabs.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/common/tabsbox.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/views/companies/view.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/addons/banners/hooks/index/scripts.post.tpl",
+		"/C/xampp/htdocs/wantam/config.local.php",
+		"/C/Users/Woody/Desktop/nanoscroller.css",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/addons/at_design/blocks/profile_header.tpl",
+		"/C/Users/Woody/Google Диск/Pagemaking/Wantam/todo",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/addons/at_design/views/at_profiles/orders.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/addons/at_design/views/at_profiles/history.tpl",
+		"/C/Users/Woody/Google Диск/Pagemaking/Wantam/translate",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/addons/at_design/views/at_profiles/view.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/addons/at_design/views/at_checkout/checkout.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/common/product_data.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/common/notification.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/mail/templates/common/notification.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/addons/my_changes/hooks/products/product_wa_price_block.override.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/blocks/topmenu_dropdown.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/addons/at_design/views/at_products/at_components/product_icon.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/addons/at_design/views/at_checkout/finish.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/css/tygh/fonts.less",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/views/checkout/components/cart_items.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/views/checkout/components/checkout_totals.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/views/checkout/components/cart_content.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/views/checkout/components/cart_items.bkp.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/views/checkout/components/cart_content.bkp.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/views/checkout/components/checkout_totals.bkp.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/addons/at_design/overrides/views/products/components/product_options.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/addons/my_changes/hooks/products/promo_text.override.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/blocks/product_templates/default_template.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/addons/my_changes/hooks/products/product_tabs_bottom.override.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/addons/at_design/blocks/account_data.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/css/addons/yandex_delivery/styles.less",
+		"/C/Users/Woody/Desktop/index.html",
+		"/C/xampp/htdocs/monstra/public/themes/potapov/css/style.css",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/blocks/product_templates/default_template.bkp.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/addons/my_changes/hooks/products/view_main_info.pre.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/views/products/components/one_product.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/blocks/my_account.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/addons/my_changes/hooks/products/product_quick_view_btn.override.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/views/products/components/quick_view_link.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/addons/wishlist/hooks/products/buy_now.pre.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/addons/wishlist/hooks/gift_certificates/buttons.post.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/addons/banners/blocks/carousel.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/common/popupbox.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/views/products/components/product_images.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/common/view_tools.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/views/products/components/product_features.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/blocks/product_tabs/features.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/addons/discussion/blocks/product_tabs/discussion.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/addons/my_changes/hooks/index_tpl/pre_body.post.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/addons/wishlist/views/wishlist/components/add_to_wishlist.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/css/tygh/responsive.less",
+		"/C/xampp/htdocs/wantam/var/themes_repository/responsive/templates/addons/rus_theme_style/hooks/checkout/dropdown_title.override.tpl",
+		"/C/Users/Woody/Google Диск/Pagemaking/Mosaica/uldelo/html/index.html",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/blocks/static_templates/logo.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/buttons/magnifier.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/index.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/blocks/cart_content.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/blocks/cart_content.old.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/buttons/clear_cart.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/blocks/cart_content.new.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/addons/wishlist/hooks/profiles/my_account_menu.post.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/addons/rus_theme_style/blocks/static_templates/my_account_links_advanced.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/addons/rus_theme_style/hooks/checkout/dropdown_title.override.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/blocks/cart_content.bkp.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/addons/my_changes/hooks/checkout/cart_content.override.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/addons/my_changes/hooks/profiles/dropdown_title.override.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/addons/my_changes/hooks/profiles/my_account_menu.post.tpl",
+		"/C/xampp/htdocs/wantam/design/themes/wantam/css/tygh/font-awesome.less",
+		"/C/Users/Woody/Downloads/latofonts.css",
+		"/C/Users/Woody/Google Диск/Pagemaking/Mosaica/uldelo/html/css/style.less",
+		"/C/Users/Woody/Dropbox (Личный)/Banners/2016/04/klinika_goda/1000x150-code/index.html",
+		"/C/Users/Woody/Dropbox (Личный)/Banners/2016/04/klinika_goda/1000x150-code/code.txt",
+		"/C/Users/Woody/Google Диск/Pagemaking/Mosaica/uldelo/html/admin/settings.html",
+		"/C/Users/Woody/Google Диск/Design/Other/portfolio/html/index.html",
+		"/C/Users/Woody/Google Диск/Design/Other/portfolio/html/css/style.less",
+		"/C/Users/Woody/Google Диск/Pagemaking/Mosaica/uldelo/html/img/magazine.svg",
+		"/C/xampp/htdocs/cscart/design/themes/redCoral/css/styles.less",
+		"/C/Users/Woody/Google Диск/Pagemaking/Mosaica/Landing-UAZ/html/index.html",
+		"/C/Users/Woody/Google Диск/Pagemaking/Mosaica/landing-digital/html/css/style.less",
+		"/C/Users/Woody/Google Диск/Pagemaking/Mosaica/landing-digital/html/index.html",
+		"/C/Users/Woody/Google Диск/Pagemaking/Mosaica/landing-digital/html/css/bootstrap.css",
+		"/C/xampp/htdocs/monstra/public/themes/potapov/homepage.template.php",
+		"/C/xampp/htdocs/monstra/public/themes/potapov/footer.chunk.php",
+		"/C/xampp/htdocs/monstra/public/themes/potapov/blog-post.template.php",
+		"/C/xampp/htdocs/monstra/public/themes/potapov/blog.template.php",
+		"/C/xampp/htdocs/monstra/public/themes/potapov/index.template.php",
+		"/C/Users/Woody/Desktop/lang.html",
+		"/C/xampp/htdocs/monstra/public/themes/default/index.template.php",
+		"/C/xampp/htdocs/monstra/public/themes/potapov/header.chunk.php",
+		"/C/xampp/htdocs/monstra/plugins/contact/views/frontend/form.view.php",
+		"/C/Users/Woody/Google Диск/Pagemaking/Potapov/v4/index.html",
+		"/C/xampp/htdocs/monstra/plugins/contact/views/frontend/form.view.php.bkp",
+		"/C/xampp/htdocs/monstra/public/themes/potapov/css/circle-player/skin/circle.player.css",
+		"/C/xampp/htdocs/monstra/public/themes/default/blog.template.php",
+		"/C/xampp/htdocs/monstra/plugins/contact/contact.plugin.php",
+		"/C/xampp/htdocs/monstra/public/themes/potapov/index.html",
+		"/C/xampp/htdocs/monstra/public/themes/potapov/footer-links.chunk.php",
+		"/C/Users/Woody/Google Диск/Pagemaking/Potapov/v4/css/style.css",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/potapov/css/font-awesome.min.css",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/potapov/index.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/potapov/header.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/potapov/style.css",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/potapov/css/bootstrap.css",
+		"/C/xampp/apache/conf/extra/httpd-vhosts.conf",
+		"/C/Users/Woody/Google Диск/Pagemaking/Potapov/v4/img/logo.svg",
+		"/C/Users/Woody/Desktop/Vector Smart Object.svg",
+		"/C/Users/Woody/Google Диск/Pagemaking/Mosaica/uldelo/html/admin/articles-create.html",
+		"/C/Users/Woody/Desktop/pp_old.svg",
+		"/C/Users/Woody/Google Диск/Pagemaking/Mosaica/newDesign/html_git/html/index.html",
+		"/C/Users/Woody/Google Диск/Pagemaking/Mosaica/newDesign/html_git/html/css/style.less",
+		"/C/xampp/htdocs/cscart/config.local.php",
+		"/C/xampp/htdocs/cscart/design/themes/redCoral/templates/addons/at_design/hooks/products/view_main_info.override.tpl",
+		"/C/xampp/htdocs/cscart/design/themes/redCoral/templates/addons/at_design/blocks/category_image.tpl",
+		"/C/xampp/htdocs/cscart/design/themes/redCoral/css/tygh/responsive.less",
+		"/C/Users/Woody/Google Диск/Pagemaking/Mosaica/newDesign/html_git/html/css/bootstrap.css",
+		"/C/Users/Woody/Desktop/Безымянный-1.svg"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 96.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"k-nav-list",
+			"					</",
+			"primary",
+			"menu",
+			"primary",
+			"menu",
+			"<koken:img lazy=\"true\" fade=\"true\" />",
+			"grid",
+			"hr {",
+			"/\"",
+			"#container",
+			"reset",
+			"font-size",
+			"font-fami",
+			"a:vis",
+			"h1,",
+			".ty-scroller-advanced .ty-grid-list__item .at_special_wrapper_scroller_advanced .small-product-at-simple .wa-wishlist-btn",
+			"<a href=\"#\" class=\"wa-wishlist-btn wa-round-btn wa-big-round-btn\">",
+			"<a href=\"#\" class=\"wa-wishlist-btn wa-round-btn wa-big-round-btn\"><i class=\"fa fa-gift\"></i><span class=\"wa-btn-count\">1</span></a>",
+			"wa-wishlist-btn",
+			"media/image",
+			"	\ntmpl_logo",
+			"select {",
+			"wa-brand-opt-container",
+			"ty-account-detail",
+			"-tabs",
+			"cm-tabs",
+			"cm-tabs-",
+			"cm-tabs-cont",
+			"cm-tabs-content",
+			"content_description",
+			"quick-view",
+			"wa-margin",
+			"ty-product-block__left",
+			"-simple",
+			".ty-scroller-advanced .ty-grid-list__item",
+			"owl-item",
+			"owl-next",
+			"image_width=",
+			"views/products/components/product_icon.tpl",
+			"big-block",
+			"ty-grid-list__item {",
+			"ty-grid-list__item Х",
+			"ty-grid-list__item",
+			".notification-content-extended",
+			"cm-auto-hide",
+			"cm-notification-content",
+			".ui-dialog-titlebar-close",
+			".ty-grid-list__price",
+			".ty-grid-list__item .ty-grid-list__price",
+			"ty-grid-list__item",
+			"ty-brand wa-brand",
+			".ty-menu__submenu-items",
+			"discount_label",
+			"ty-discount-label__value",
+			"product-title",
+			"ty-menu__submenu-item",
+			"войти с помощью",
+			"ty-no-items",
+			"ty-cart-content__product-elem ty-cart-content__price cm-reload-3849671376",
+			"tr",
+			"td",
+			"table",
+			"tbody",
+			"thead",
+			"</th>",
+			"<th",
+			"tr",
+			"td",
+			"<td",
+			"</td>",
+			"</tr>",
+			"table",
+			"<td>",
+			"<tr>",
+			"price",
+			"ty-cart-content__top-buttons",
+			"ty-cart-statistic__title",
+			"ty-cart-content__product-elem ty-cart-content__image-block",
+			".ty-btn__tertiary",
+			"@tertiary_button",
+			"tertiary_button",
+			".ty-btn__tertiary",
+			"ty-btn__tertiary",
+			"wave",
+			"cart-items",
+			".ty-cart-items",
+			"wa-profile-header-container",
+			"input[type=\"checkbox\"]",
+			".wa-left",
+			".rounded_corners",
+			".ui-dialog .buttons-container",
+			"buttons-container",
+			".buttons-container",
+			".wa-center",
+			"wa-red",
+			"ty-btn",
+			"tygh-content > div",
+			"цвета",
+			"wa-cats-prev-containerюwa-bonus-container",
+			"wa-cats-prev-container wa-bonus-container",
+			"ty-margin",
+			"ty-discount",
+			"ty-discount-label",
+			"ty-value-changer__increase",
+			".ty-product-block__wrapper",
+			"ty-product-block__wrapper",
+			"ty-product-detail",
+			"view_main_info",
+			"ty-product-detail",
+			"product_tabs",
+			"description",
+			"id=\"description\"",
+			"<li id=\"description\"",
+			"featur",
+			"ty-tabs",
+			"ty-tabs cm-j-tabs clearfix",
+			"tabs",
+			"include file=\"views/products/components/product_features.tpl",
+			"{include file=\"views/products/components/product_featires.tpl\"",
+			"components",
+			"ty-product-feature-group",
+			"content_features",
+			"ty-tabs cm-j-tabs",
+			"ty-tabs cm-j-tabs clearfix",
+			"discount",
+			"ty-discount",
+			";\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"0",
+			"10",
+			"15",
+			"30",
+			".padding-20 {padding: 20px}\n.padding-20-right {padding-right: 20px}\n.padding-20-left {padding-left: 20px}\n.padding-20-top {padding-top: 20px}\n.padding-20-bottom {padding-bottom: 20px}\n\n.margin-20 {margin: 20px}\n.margin-20-right {margin-right: 20px}\n.margin-20-left {margin-left: 20px}\n.margin-20-top {margin-top: 20px}\n.margin-20-bottom {margin-bottom: 20px}",
+			"30"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 11,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "layouts/footer.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5430,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								35,
+								35
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "layouts/header.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2875,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2204,
+								2204
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 594.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/style.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5762,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2545,
+								2545
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2564.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/settings.css.lens",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19546,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								471,
+								471
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 602.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "index.lens",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14563,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10181,
+								10051
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "info.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 29508,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								332,
+								332
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "albums.lens",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1662,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								579,
+								579
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/Users/Woody/Google Диск/Design/Other/portfolio/html/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16362,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13124,
+								13124
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3194.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2449,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										282,
+										289
+									],
+									[
+										593,
+										600
+									],
+									[
+										864,
+										871
+									],
+									[
+										1054,
+										1061
+									],
+									[
+										1397,
+										1404
+									],
+									[
+										1525,
+										1532
+									],
+									[
+										1651,
+										1658
+									],
+									[
+										1732,
+										1739
+									],
+									[
+										1859,
+										1866
+									],
+									[
+										2115,
+										2122
+									],
+									[
+										2314,
+										2321
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								181,
+								181
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 3,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ 	].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 90.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "layouts/album_detail_thumbs.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1388,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								248,
+								248
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "css/kicons.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1806,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1806,
+								1806
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 255,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								255,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "sublime-project.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 344.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

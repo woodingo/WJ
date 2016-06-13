@@ -1,0 +1,130 @@
+	</main>
+
+	<footer class="wj-footer">
+
+		<div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <koken:navigation group="footer_left" />
+                        </div>
+                        <div class="col-xs-6">
+                            <koken:navigation group="footer_right" />
+                        </div>
+                   </div>
+                   <hr>
+                </div>
+                <div class="col-sm-6 contact-form">
+                    <div class="row">
+                        <div class="col-xs-7">
+                            <p>
+                                Оставьте ваши контакты, <br>и я сразу же свяжусь с вами.
+                            </p>
+                        </div>
+                        <div class="col-xs-5">
+                            <div class="text-right social-icons">
+                                <a href="#">
+                                    <i class="fa fa-vk"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="contact-form">
+						<p class="k-contact-form-success" style="display: none">Тестовое сообщение (для чего это вообще о_О)</p>
+						<form method="post" class="k-contact-form" id="k-contact-form-e538b0f40c25feb6bfaf5232836ccacd">	<input type="hidden" name="koken_contact_form" value="1" />
+							<div class="row">
+								<div class="col-md-4">
+									<input class="text-input" id="k-contact-form-e538b0f40c25feb6bfaf5232836ccacd-k-contact-field-0" name="k-contact-field-0" type="email" placeholder="Ваш Email" />
+								</div>
+								<div class="col-md-4">
+									<input class="text-input" id="k-contact-form-e538b0f40c25feb6bfaf5232836ccacd-k-contact-field-1" name="k-contact-field-1" type="text" placeholder="Тема"></input>
+								</div>
+								<div class="col-md-4">
+									<input type="text" name="k-contact-field-dummy" style="display:none" />
+									<input type="hidden" name="labels" value='["\u0412\u0430\u0448 email","\u0422\u0435\u043a\u0441\u0442 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f"]' />
+									<input type="hidden" name="from_field" value="k-contact-field-0" />
+									<button type="submit" class="btn">Отправить</button>
+								</div>
+							</div>					
+						</form>
+						<script>
+							$(document).off('submit.contact').on('submit.contact', '#k-contact-form-e538b0f40c25feb6bfaf5232836ccacd', function() {
+							var form = $(this);
+							var button = form.find('button[type="submit"]');
+							var required = ["k-contact-field-0","k-contact-field-1"];
+							var valid = true;
+							button.attr('disabled', true);
+							form.find('.k-contact-form-error').removeClass('k-contact-form-error');
+							$.each(required, function(i, name) {
+							var input = form.find('[name="' + name + '"]');
+							if (!input.val().length) {
+							input.parents('fieldset').addClass('k-contact-form-error');
+							if (valid) {
+							input.focus();
+							}
+							valid = false;
+							}
+							});
+
+							if (valid) {
+							form.addClass('k-contact-form-processing');
+							$.post(location.href, form.serialize(), function() {
+							form.parent().find('.k-contact-form-success').show();
+							form.hide();
+							});
+							} else {
+							button.attr('disabled', false);
+							}
+							return false;
+							});
+						</script>
+		            </div>
+                </div>
+            </div>
+            <div class="copyright">
+                {{ site.copyright }}<koken:if true="settings.built_with"></koken:if>
+            </div>
+        </div>
+
+		<koken:public>
+
+			<koken:if true="settings.show_social">
+				<div class="social">
+					<span class="fb">
+						<koken:if data="settings.fb_href" equals="site">
+							<div class="fb-like" data-href="{{ location.site_url }}" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+						</koken:if>
+						<koken:if data="settings.fb_href" equals="fbpage">
+							<div class="fb-like" data-href="{{ profile.facebook }}" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+						</koken:if>
+					</span>
+					<span class="tw">
+						<a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+					</span>
+					<span class="gplus">
+						<script type="text/javascript" src="https://apis.google.com/js/platform.js"></script>
+						<div class="g-plus" data-action="share" data-annotation="bubble"></div>
+					</span>
+				</div>
+			</koken:if>
+
+		</koken:public>		
+
+	</footer>
+
+	</div>	<!-- close container -->
+
+	<koken:asset file="share.js" common="true" />
+
+</body>
+
+</html>
