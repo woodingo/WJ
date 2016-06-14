@@ -27,13 +27,13 @@
 
 	<koken:include file="layouts/album_title_header.html" />
 
-	<ol class="thumbs">
+	<div class="row">
 
 		<koken:loop>
 			<koken:include file="layouts/album_index_loop.html" />
 		</koken:loop>
 
-	</ol>
+	</div>
 
 	<koken:include file="layouts/pagination.html" />
 
