@@ -27,11 +27,11 @@
 
 <koken:include file="layouts/album_title_header.html" />
 
-<ol class="thumbs">
+<div class="row">
 
 	<koken:include file="layouts/album_detail_thumbs.html" />
 
-</ol>
+</div>
 
 <koken:include file="layouts/pagination.html" />
 

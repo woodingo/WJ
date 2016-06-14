@@ -1,11 +1,11 @@
 @import url(css/titles/[$font_title].css);
-@import url(css/body/[$font_body].css);
 
 body {
     text-align: center;
     -webkit-font-smoothing: subpixel-antialiased;
     -webkit-text-size-adjust: 100%;
-    -moz-osx-font-smoothing: $firefox_alias
+    -moz-osx-font-smoothing: $firefox_alias;
+    font-family: "Open Sans", Arial, sans-serif;
 }
 
 article,
@@ -336,7 +336,7 @@ a:visited {
 }
 
 a:hover {
-    color: $color_links_hover
+    color: #999999;
 }
 
 a.disabled,
@@ -502,7 +502,7 @@ header.content a {
 }
 
 header.content a:hover {
-    color: $color_links_hover
+    color: #999999;
 }
 
 header.content a.disabled:hover {

@@ -1,26 +1,20 @@
 <koken:loop>
 
-	<li class="album-content">
+	<div class="col-md-3 no-padding">
 
-		<figure>
+		<figure class="wj-thumb">
 
 			<koken:link title="View {{ content.title | content.filename }}" class="thumb">
 
-				<koken:if data="settings.albums_detail_crop" equals="proportional">
+				<koken:img class="preview" lazy="true" size="1:1" />
 
-					<koken:img class="preview" lazy="true" />
-
-					<!-- <koken:link lightbox="true"><koken:img /></koken:link> -->
-
-				<koken:else>
-
-					<koken:img size="{{ settings.album_detail_crop_size }}" lazy="true" />
-
-				</koken:if>
+				<!-- <koken:link lightbox="true"><koken:img /></koken:link> -->
 
 			</koken:link>
 
-			<figcaption>
+			<koken:link class="wj-thumb-overlay"></koken:link>
+
+			<figcaption class="wj-caption">
 
 				<koken:if true="settings.albums_detail_show_date">
 					<koken:time class="date" />
@@ -28,17 +22,19 @@
 
 				<koken:if true="settings.albums_detail_show_title">
 
-					<h4>
+					<h2>
 						<koken:link title="{{ content.title | content.filename }}">
 							{{ content.title | content.filename }}
 						</koken:link>
-					</h4>
+					</h2>
 
 				</koken:if>
 
 				<koken:if true="settings.albums_detail_show_caption">
 
 					<koken:not empty="content.caption">
+
+						<hr>
 
 						<p>
 							<koken:if true="settings.albums_detail_truncate">
@@ -56,7 +52,7 @@
 
 		</figure>
 
-	</li>
+	</div>
 
 </koken:loop>
 

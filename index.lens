@@ -126,7 +126,7 @@
     </svg>
 
     <section class="main">
-        <div class="container">
+        <div>
             <div class="row">
                 <div class="col-md-3 col-sm-6">
                     <a href="#" style="display: block; margin: 0 -15px;" class="animated fadeIn wj-logo-container">
@@ -141,6 +141,7 @@
                         <div class="work-colored" style="background-image: url({{ location.theme_path }}/css/img/1-1.jpg)"></div>
                         <div class="work-ed">
                             <h2>Обо мне</h2>
+                            <hr>
                             <p>Резюме, контакты</p>
                         </div>
                     </a>
@@ -151,6 +152,7 @@
                         <div class="work-colored" style="background-image: url({{ location.theme_path }}/css/img/2-1.jpg)"></div>
                         <div class="work-ed">
                             <h2>Газеты</h2>
+                            <hr>
                             <p>Газетная верстка</p>
                         </div>
                     </a>
@@ -161,6 +163,7 @@
                         <div class="work-colored" style="background-image: url({{ location.theme_path }}/css/img/3-1.jpg)"></div>
                         <div class="work-ed">
                             <h2>Журналы</h2>
+                            <hr>
                             <p>Журнальная верстка и дизайн</p>
                         </div>
                     </a>
@@ -173,6 +176,7 @@
                         <div class="work-colored" style="background-image: url({{ location.theme_path }}/css/img/4-1.jpg)"></div>
                         <div class="work-ed">
                             <h2>Буклеты, листовки</h2>
+                            <hr>
                             <p>Рекламная полиграфия</p>
                         </div>
                     </a>
@@ -183,6 +187,7 @@
                         <div class="work-colored" style="background-image: url({{ location.theme_path }}/css/img/5-1.jpg)"></div>
                         <div class="work-ed">
                             <h2>Сайты</h2>
+                            <hr>
                             <p>Дизайн и верстка</p>
                         </div>
                     </a>
@@ -193,6 +198,7 @@
                         <div class="work-colored" style="background-image: url({{ location.theme_path }}/css/img/6-1.jpg)"></div>
                         <div class="work-ed">
                             <h2>Анимация</h2>
+                            <hr>
                             <p>Flash-баннеры</p>
                         </div>
                     </a>
@@ -203,6 +209,7 @@
                         <div class="work-colored" style="background-image: url({{ location.theme_path }}/css/img/7-1.jpg)"></div>
                         <div class="work-ed">
                             <h2>Фирменные стили</h2>
+                            <hr>
                             <p>Логотипы и айдентика</p>
                         </div>
                     </a>

@@ -18,8 +18,8 @@
 }
 
 .container.margin {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 
 .no-padding {
@@ -28,6 +28,14 @@
     padding-top: 0;
     padding-left: 0;
     padding-right: 0;
+}
+
+.no-margin {
+    margin: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .text-right {
@@ -53,12 +61,13 @@ body {
     height: 100%;
     background-size: cover;
     background-color: lighten(#000, 12%);
+    color: lighten(#000, 50%);
 }
 b, strong {
     font-weight: 500;
 }
 .main {
-    font-family: "Roboto", Arial, sans-serif;
+    font-family: "Open Sans", Arial, sans-serif;
     font-weight: 300;
     padding: 70px 0;
     background-size: cover;
@@ -71,7 +80,7 @@ h1, h2, h3 {
 
 h2 {
     padding-bottom: 5px;
-    border-bottom: 1px solid;
+    // border-bottom: 1px solid;
 }
 
 b.heavy {
@@ -97,12 +106,28 @@ textarea {
     margin-left: -15px;
     color: #fff;
     text-align: left;
+
+    &:focus,
+    &:hover {
+        color: #fff;
+    }
+
+    .work-ed {
+
+        h2 {
+            margin-bottom: 0;
+        }
+
+        hr {
+           .no-margin;
+        }
+
+        p {
+            margin-top: 10px;
+        }
+    }
 }
 
-.work-container:focus,
-.work-container:hover {
-    color: #fff;
-}
 
 .work,
 .work-colored {
@@ -404,15 +429,37 @@ footer.wj-footer {
 
     &:hover {
         .wj-caption {
-            background-color: lighten(#000, 15%);
+            // background-color: lighten(#000, 15%);
             opacity: 1;
             .transition;
         }
+
+        .wj-thumb-overlay {
+            opacity: 1;
+            .transition;
+        }
+
+        hr {
+            width: 100%;
+            .transition;
+        }
+    }
+
+    .wj-thumb-overlay {
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(27, 27, 27, 0.8);
+        opacity: 0;
+        .transition;
     }
 }
 
 .wj-caption {
-    padding: 15px;
+    padding: 20px;
     color: #fff;
     color: lighten(#000, 50%);
     position: absolute;
@@ -422,31 +469,34 @@ footer.wj-footer {
     opacity: 0;
     .transition;
 
-    h4, h3 {
+    h4, h3, h2 {
         margin-top: 0;
-        margin-bottom: 10px;
+        margin-bottom: 0;
         font-weight: 300;
 
         a {
-            color: lighten(#000, 50%);
+            color: #fff;
             .transition;
 
             &:hover {
-                color: lighten(#000, 80%)
+                color: lighten(#000, 80%);
             }
         }
     }
 
     hr {
-        border-color: lighten(#000, 20%);
+        border-color: #fff;
         margin: 0;
+        width: 0;
+        .transition;
     }
 
     p {
         margin-top: 10px;
         margin-bottom: 0;
         font-weight: 300;
-        height: 40px;
-        overflow: hidden;
+        color: #fff;
+        // height: 40px;
+        // overflow: hidden;
     }
 }

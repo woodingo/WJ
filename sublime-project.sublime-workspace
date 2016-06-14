@@ -4,8 +4,16 @@
 		"selected_items":
 		[
 			[
+				"pos",
+				"pos-a	position: absolute;"
+			],
+			[
 				"back",
-				"background-size"
+				"background-color"
+			],
+			[
+				"font",
+				"font-weight"
 			],
 			[
 				"text",
@@ -22,10 +30,6 @@
 			[
 				"max",
 				"max-width"
-			],
-			[
-				"pos",
-				"pos-r	position: relative;"
 			],
 			[
 				"box-",
@@ -192,10 +196,6 @@
 				"nowrap"
 			],
 			[
-				"font",
-				"font-size"
-			],
-			[
 				"color-g",
 				"color-gray-light-medium"
 			],
@@ -356,26 +356,10 @@
 	"buffers":
 	[
 		{
-			"file": "layouts/footer.html",
-			"settings":
-			{
-				"buffer_size": 5430,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "layouts/header.html",
-			"settings":
-			{
-				"buffer_size": 2875,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "css/style.less",
 			"settings":
 			{
-				"buffer_size": 5762,
+				"buffer_size": 6960,
 				"line_ending": "Windows"
 			}
 		},
@@ -383,50 +367,8 @@
 			"file": "css/settings.css.lens",
 			"settings":
 			{
-				"buffer_size": 19546,
+				"buffer_size": 19581,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "index.lens",
-			"settings":
-			{
-				"buffer_size": 14563,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "info.json",
-			"settings":
-			{
-				"buffer_size": 29508,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "albums.lens",
-			"settings":
-			{
-				"buffer_size": 1662,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Users/Woody/Google Диск/Design/Other/portfolio/html/index.html",
-			"settings":
-			{
-				"buffer_size": 16362,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "Searching 92 files for \"grid\"\n\n0 matches\n\nSearching 92 files for \"<koken:img lazy=\"true\" fade=\"true\" />\"\n\n0 matches\n\nSearching 92 files for \"primary\"\n\nC:\\xampp\\htdocs\\koken\\storage\\themes\\WJ\\info.json:\n  884  					\"type\": \"select\",\n  885  					\"options\": [\n  886: 						{ \"label\": \"Primary cover\", \"value\": \"cover\" },\n  887  						{ \"label\": \"Mosaic\", \"value\": \"mosaic\" },\n  888  						{ \"label\": \"Slideshow\", \"value\": \"slideshow\" }\n\nC:\\xampp\\htdocs\\koken\\storage\\themes\\WJ\\js\\less.js:\n 3105              imports.contents[fileInfo.filename] = str;\n 3106  \n 3107:             // Start with the primary rule.\n 3108              // The whole syntax tree is held under a Ruleset node,\n 3109              // with the `root` property set to true, so no `{}` are\n ....\n 3119                  });\n 3120  \n 3121:                 root = new(tree.Ruleset)(null, this.parsers.primary());\n 3122                  root.root = true;\n 3123                  root.firstRoot = true;\n ....\n 3212          parsers: parsers = {\n 3213              //\n 3214:             // The `primary` rule is the *entry* and *exit* point of the parser.\n 3215              // The rules here can appear at any level of the parse tree.\n 3216              //\n 3217              // The recursive nature of the grammar is an interplay between the `block`\n 3218:             // rule, which represents `{ ... }`, the `ruleset` rule, and this `primary` rule,\n 3219              // as represented by this simplified grammar:\n 3220              //\n 3221:             //     primary  →  (ruleset | rule)+\n 3222              //     ruleset  →  selector+ block\n 3223:             //     block    →  '{' primary '}'\n 3224              //\n 3225:             // Only at one point is the primary rule not called from the\n 3226              // block rule: at the root level.\n 3227              //\n 3228:             primary: function () {\n 3229                  var mixin = this.mixin, root = [], node;\n 3230  \n ....\n 4034              //\n 4035              // The `block` rule is used by `ruleset` and `mixin.definition`.\n 4036:             // It's a wrapper around the `primary` rule, with added `{}`.\n 4037              //\n 4038              block: function () {\n 4039                  var content;\n 4040:                 if (parserInput.$char('{') && (content = this.primary()) && parserInput.$char('}')) {\n 4041                      return content;\n 4042                  }\n\n11 matches across 2 files\n",
-			"settings":
-			{
-				"buffer_size": 2449,
-				"line_ending": "Windows",
-				"name": "Find Results",
-				"scratch": true
 			}
 		},
 		{
@@ -438,19 +380,43 @@
 			}
 		},
 		{
-			"file": "css/kicons.css",
+			"file": "layouts/album_index_loop.html",
 			"settings":
 			{
-				"buffer_size": 1806,
-				"line_ending": "Windows"
+				"buffer_size": 1363,
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "<div class=\"at_display_char\">\n	<div class=\"at_display_visible\">\n		Характеристика 1, Характеристика 2\n	</div>\n	<div class=\"at_display_show_more\">\n		Другие варианты\n	</div>\n	<div class=\"at_display_hidden\">\n		Характеристика 3, Характеристика 4\n	</div>\n</div>",
+			"file": "layouts/footer.html",
 			"settings":
 			{
-				"buffer_size": 255,
-				"line_ending": "Windows"
+				"buffer_size": 5435,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "layouts/content_list_item.html",
+			"settings":
+			{
+				"buffer_size": 1024,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "albums.lens",
+			"settings":
+			{
+				"buffer_size": 1659,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "layouts/header.html",
+			"settings":
+			{
+				"buffer_size": 2886,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -508,10 +474,20 @@
 	"expanded_folders":
 	[
 		"/C/xampp/htdocs/koken/storage/themes/WJ",
-		"/C/xampp/htdocs/koken/storage/themes/WJ/css"
+		"/C/xampp/htdocs/koken/storage/themes/WJ/css",
+		"/C/xampp/htdocs/koken/storage/themes/WJ/layouts"
 	],
 	"file_history":
 	[
+		"/C/xampp/htdocs/koken/storage/themes/WJ/layouts/album_detail_thumbs.html",
+		"/C/Users/Woody/Google Диск/Design/Other/portfolio/html/index.html",
+		"/C/xampp/htdocs/koken/storage/themes/WJ/albums.lens",
+		"/C/xampp/htdocs/koken/storage/themes/WJ/info.json",
+		"/C/xampp/htdocs/koken/storage/themes/WJ/index.lens",
+		"/C/xampp/htdocs/koken/storage/themes/WJ/css/settings.css.lens",
+		"/C/xampp/htdocs/koken/storage/themes/WJ/layouts/header.html",
+		"/C/xampp/htdocs/koken/storage/themes/WJ/layouts/footer.html",
+		"/C/xampp/htdocs/koken/storage/themes/WJ/css/kicons.css",
 		"/C/xampp/htdocs/wantam/design/themes/wantam/sublime.sublime-project",
 		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/addons/at_design/views/at_profiles/want_present.tpl",
 		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/addons/at_design/views/at_profiles/scroller.tpl",
@@ -597,7 +573,6 @@
 		"/C/Users/Woody/Dropbox (Личный)/Banners/2016/04/klinika_goda/1000x150-code/index.html",
 		"/C/Users/Woody/Dropbox (Личный)/Banners/2016/04/klinika_goda/1000x150-code/code.txt",
 		"/C/Users/Woody/Google Диск/Pagemaking/Mosaica/uldelo/html/admin/settings.html",
-		"/C/Users/Woody/Google Диск/Design/Other/portfolio/html/index.html",
 		"/C/Users/Woody/Google Диск/Design/Other/portfolio/html/css/style.less",
 		"/C/Users/Woody/Google Диск/Pagemaking/Mosaica/uldelo/html/img/magazine.svg",
 		"/C/xampp/htdocs/cscart/design/themes/redCoral/css/styles.less",
@@ -631,15 +606,7 @@
 		"/C/Users/Woody/Google Диск/Pagemaking/Potapov/v4/img/logo.svg",
 		"/C/Users/Woody/Desktop/Vector Smart Object.svg",
 		"/C/Users/Woody/Google Диск/Pagemaking/Mosaica/uldelo/html/admin/articles-create.html",
-		"/C/Users/Woody/Desktop/pp_old.svg",
-		"/C/Users/Woody/Google Диск/Pagemaking/Mosaica/newDesign/html_git/html/index.html",
-		"/C/Users/Woody/Google Диск/Pagemaking/Mosaica/newDesign/html_git/html/css/style.less",
-		"/C/xampp/htdocs/cscart/config.local.php",
-		"/C/xampp/htdocs/cscart/design/themes/redCoral/templates/addons/at_design/hooks/products/view_main_info.override.tpl",
-		"/C/xampp/htdocs/cscart/design/themes/redCoral/templates/addons/at_design/blocks/category_image.tpl",
-		"/C/xampp/htdocs/cscart/design/themes/redCoral/css/tygh/responsive.less",
-		"/C/Users/Woody/Google Диск/Pagemaking/Mosaica/newDesign/html_git/html/css/bootstrap.css",
-		"/C/Users/Woody/Desktop/Безымянный-1.svg"
+		"/C/Users/Woody/Desktop/pp_old.svg"
 	],
 	"find":
 	{
@@ -658,6 +625,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"-md-",
+			"wj-logo",
+			".transition",
 			"k-nav-list",
 			"					</",
 			"primary",
@@ -782,10 +752,7 @@
 			"ty-product-feature-group",
 			"content_features",
 			"ty-tabs cm-j-tabs",
-			"ty-tabs cm-j-tabs clearfix",
-			"discount",
-			"ty-discount",
-			";\n"
+			"ty-tabs cm-j-tabs clearfix"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -809,84 +776,24 @@
 	"groups":
 	[
 		{
-			"selected": 11,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "layouts/footer.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5430,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								35,
-								35
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "layouts/header.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2875,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2204,
-								2204
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 594.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "css/style.less",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5762,
+						"buffer_size": 6960,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2545,
-								2545
+								6252,
+								6252
 							]
 						],
 						"settings":
@@ -897,251 +804,44 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2564.0,
+						"translation.y": 7144.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 1,
 					"file": "css/settings.css.lens",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 19546,
+						"buffer_size": 19581,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								471,
-								471
+								506,
+								506
 							]
 						],
 						"settings":
 						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
 							"syntax": "Packages/CSS/CSS.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 602.0,
+						"translation.y": 278.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "index.lens",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 14563,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								10181,
-								10051
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "info.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 29508,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								332,
-								332
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "albums.lens",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1662,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								579,
-								579
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "/C/Users/Woody/Google Диск/Design/Other/portfolio/html/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 16362,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								13124,
-								13124
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3194.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2449,
-						"regions":
-						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										282,
-										289
-									],
-									[
-										593,
-										600
-									],
-									[
-										864,
-										871
-									],
-									[
-										1054,
-										1061
-									],
-									[
-										1397,
-										1404
-									],
-									[
-										1525,
-										1532
-									],
-									[
-										1651,
-										1658
-									],
-									[
-										1732,
-										1739
-									],
-									[
-										1859,
-										1866
-									],
-									[
-										2115,
-										2122
-									],
-									[
-										2314,
-										2321
-									]
-								],
-								"scope": ""
-							}
-						},
-						"selection":
-						[
-							[
-								181,
-								181
-							]
-						],
-						"settings":
-						{
-							"detect_indentation": false,
-							"line_numbers": false,
-							"output_tag": 3,
-							"result_base_dir": "",
-							"result_file_regex": "^([^ 	].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 90.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
+					"buffer": 2,
 					"file": "layouts/album_detail_thumbs.html",
 					"semi_transient": false,
 					"settings":
@@ -1153,8 +853,8 @@
 						"selection":
 						[
 							[
-								248,
-								248
+								52,
+								52
 							]
 						],
 						"settings":
@@ -1167,64 +867,155 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
-					"file": "css/kicons.css",
+					"buffer": 3,
+					"file": "layouts/album_index_loop.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1806,
+						"buffer_size": 1363,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1806,
-								1806
+								29,
+								40
 							]
 						],
 						"settings":
 						{
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"word_wrap": true
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 4,
+					"file": "layouts/footer.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 255,
+						"buffer_size": 5435,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								255,
+								796,
+								796
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 216.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "layouts/content_list_item.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1024,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
 								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "albums.lens",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1659,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1454,
+								1454
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 216.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "layouts/header.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2886,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2884,
+								2884
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 810.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
