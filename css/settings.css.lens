@@ -36,7 +36,7 @@ figure {
 }
 
 figure .figimg {
-    text-align: center
+    text-align: left;
 }
 
 figure img {
@@ -359,11 +359,15 @@ a.paginate.disabled {
 }
 
 .rarr:after {
-    content: " →"
+    content: "\f105";
+    font-family: 'FontAwesome';
+    margin-left: 5px;
 }
 
 .larr:before {
-    content: "← "
+    content: "\f104";
+    font-family: 'FontAwesome';
+    margin-right: 5px;
 }
 
 span.tagline {
@@ -483,8 +487,8 @@ header.top span.tagline {
 
 header.content {
     font-weight: 400;
-    border-bottom: 1px solid;
-    margin-bottom: 1.6rem
+    border-bottom: 1px solid #3c3c3c;
+    margin-bottom: 30px;
 }
 
 header.content .right {
@@ -765,7 +769,11 @@ aside a.norm:visited {
 }
 
 aside a:hover {
-    color: $color_links_hover
+    color: #999999;
+}
+
+aside section {
+    margin-bottom: 20px;
 }
 
 .head_title {
@@ -819,7 +827,8 @@ body.k-source-content a.mag+p:first-child {
 
 ol.thumb-strip {
     list-style: none;
-    margin-bottom: 1em
+    margin-bottom: 1em;
+    padding-left: 0;
 }
 
 ol.thumb-strip li {
@@ -994,15 +1003,16 @@ div.essay-pag span.cell.right {
     text-align: left;
     position: relative;
     padding-top: 1rem;
-    margin: 0 0 3.2rem;
-    border-top: 1px solid $color_hr;
+    margin: 30px 0 0;
     white-space: nowrap
 }
 
 .paginate ol {
     list-style: none;
     float: left;
-    margin-bottom: 0
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 0;
 }
 
 .paginate ol li {
@@ -1021,7 +1031,7 @@ div.essay-pag span.cell.right {
 
 .paginate a.k-pagination-current {
     cursor: default;
-    color: $color_nav_current;
+    color: #fff;
     font-weight: 700
 }
 

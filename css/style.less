@@ -48,6 +48,10 @@
 
 .text-center {
     text-align: center;
+
+    div, p {
+        text-align: center;
+    }
 }
 
 .transition {
@@ -499,4 +503,21 @@ footer.wj-footer {
         // height: 40px;
         // overflow: hidden;
     }
+}
+
+.wj-album-title {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    &:after {
+        content: "";
+        display: block;
+        border-bottom: 1px solid lighten(#000, 50%);
+        width: 100px;
+        margin: 10px auto;
+    }
+}
+
+.wj-album-caption p {
+    margin-top: 0;
 }

@@ -20,19 +20,9 @@
 	</koken:content_image>
 </koken:head>
 
-<div id="twocol">
+<div class="row">
 
-	<header class="content page">
-
-		<span class="wrap first">
-
-			<koken:breadcrumbs separator="/" />
-
-		</span>
-
-	</header>
-
-	<div class="mcol">
+	<div class="col-md-8">
 
 		<header class="content">
 
@@ -46,23 +36,9 @@
 
 				<span class="wrap first">
 
-					<koken:link lightbox="true" bind_to_key="l" title="View in lightbox">View in lightbox</koken:link>
+					<koken:link lightbox="true" bind_to_key="l" title="View in lightbox">На полный экран</koken:link>
 
 				</span>
-
-				<koken:if true="settings.content_detail_show_share">
-
-					<koken:if true="{{ content.public }}">
-
-						<span class="edge_left share">
-							<span class="wrap last">
-								<koken:include file="layouts/share_content.html" />
-							</span>
-						</span>
-
-					</koken:if>
-
-				</koken:if>
 
 			</span>
 
@@ -90,43 +66,11 @@
 
 			</div>
 
-			<figcaption>
-
-				<koken:if true="settings.content_show_title">
-
-					<h3>
-						{{ content.title | content.filename }}
-					</h3>
-
-				</koken:if>
-
-				<koken:if true="settings.content_show_caption">
-
-					{{ content.caption paragraphs="true" }}
-
-				</koken:if>
-
-				<koken:if true="settings.show_disc_content">
-
-					<div id="kdiscuss">
-
-						<koken:discussion>
-
-							{{ discussion }}
-
-						</koken:discussion>
-
-					</div>
-
-				</koken:if>
-
-			</figcaption>
-
 		</figure>
 
 	</div>
 
-	<div class="rcol">
+	<div class="col-md-4">
 
 		<koken:parent>
 			<koken:variable name="previous_label" value="Previous" />
@@ -143,9 +87,9 @@
 				<span class="wrap last">
 
 					<koken:next>
-						<koken:link class="rarr" title="{{ next_label }}" bind_to_key="right">{{ next_label }}</koken:link>
+						<koken:link class="rarr" title="{{ next_label }}" bind_to_key="right">Следующая</koken:link>
 					<koken:else>
-						<a class="rarr disabled" title="{{ next_label }}">{{ next_label }}</a>
+						<a class="rarr disabled" title="{{ next_label }}">Следующая</a>
 					</koken:next>
 
 				</span>
@@ -155,9 +99,9 @@
 			<span class="wrap first">
 
 				<koken:previous>
-					<koken:link class="larr" title="{{ previous_label }}" bind_to_key="left">{{ previous_label }}</koken:link>
+					<koken:link class="larr" title="{{ previous_label }}" bind_to_key="left">Предыдущая</koken:link>
 				<koken:else>
-					<a class="larr disabled">{{ previous_label }}</a>
+					<a class="larr disabled">Предыдущая</a>
 				</koken:previous>
 
 			</span>
@@ -178,7 +122,7 @@
 						{{ context.title }}
 					</koken:link>
 
-					<span>({{ context.position }} of {{ context.total }})</span>
+					<span>({{ context.position }} из {{ context.total }})</span>
 
 				</h4>
 
@@ -228,9 +172,9 @@
 
 		<koken:albums>
 
-			<section>
+			<section class="margin-bottom">
 
-				<h4>{{ labels.album.plural }}</h4>
+				<h4>Альбомы</h4>
 				<koken:loop separator=", ">
 					<koken:link title="View {{ album.title }}">
 						{{ album.title }}
@@ -245,7 +189,7 @@
 
 			<section>
 
-				<h4>Uploaded</h4>
+				<h4>Загружено</h4>
 				<koken:time data="content.uploaded_on" />
 
 			</section>
@@ -257,7 +201,7 @@
 			<section>
 
 				<koken:not empty="captured_on.timestamp">
-					<h4>Captured</h4>
+					<h4>Создано</h4>
 					<koken:link to="archive" filter:order_by="captured_on" filter:year="{{ captured_on date_format='Y' }}" filter:month="{{ captured_on date_format='m' }}" filter:day="{{ captured_on date_format='d' }}" title="View all {{ labels.content.plural case='lower' }} captured on this date">
 						<koken:time show="both" data="content.captured_on" />
 					</koken:link>
@@ -394,7 +338,7 @@
 
 			<section>
 
-				<h4>License</h4>
+				<h4>Лицензия</h4>
 				{{ content.license.clean }}
 
 			</section>

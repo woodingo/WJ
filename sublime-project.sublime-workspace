@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"ba",
+				"background"
+			],
+			[
 				"pos",
 				"pos-a	position: absolute;"
 			],
@@ -114,10 +118,6 @@
 			[
 				"links",
 				"links"
-			],
-			[
-				"ba",
-				"background-color"
 			],
 			[
 				"rb",
@@ -359,15 +359,57 @@
 			"file": "css/style.less",
 			"settings":
 			{
-				"buffer_size": 6960,
+				"buffer_size": 8039,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Searching 92 files for \"<ol class=\"thumbs\"\"\n\nC:\\xampp\\htdocs\\koken\\storage\\themes\\WJ\\archive.albums.lens:\n   44  </header>\n   45  \n   46: <ol class=\"thumbs\">\n   47  \n   48  	<koken:loop>\n\nC:\\xampp\\htdocs\\koken\\storage\\themes\\WJ\\archive.contents.lens:\n   36  </header>\n   37  \n   38: <ol class=\"thumbs\">\n   39  \n   40  	<koken:loop>\n\nC:\\xampp\\htdocs\\koken\\storage\\themes\\WJ\\contents.lens:\n   26  <koken:load limit=\"{{ settings.content_index_limit }}\">\n   27  \n   28: <ol class=\"thumbs\">\n   29  \n   30  	<koken:loop>\n\nC:\\xampp\\htdocs\\koken\\storage\\themes\\WJ\\favorites.lens:\n   24  </koken:load>\n   25  <koken:load limit=\"{{ settings.content_index_limit }}\">\n   26: <ol class=\"thumbs\">\n   27  \n   28  	<koken:loop>\n\nC:\\xampp\\htdocs\\koken\\storage\\themes\\WJ\\set.lens:\n   28  	<koken:include file=\"layouts/album_title_header.html\" />\n   29  \n   30: 	<ol class=\"thumbs\">\n   31  \n   32  		<koken:loop>\n\n5 matches across 5 files\n\n\nSearching 92 files for \"<li class=\"next\">\"\n\nC:\\xampp\\htdocs\\koken\\storage\\themes\\WJ\\layouts\\pagination.html:\n   39  			<koken:pagination_next>\n   40  \n   41: 			<li class=\"next\">\n   42  				<koken:link title=\"Next\">\n   43  					&gt;\n\n1 match in 1 file\n\n\nSearching 92 files for \"<span class=\"count\">\"\n\nC:\\xampp\\htdocs\\koken\\storage\\themes\\WJ\\categories.lens:\n   33  				<koken:link title=\"View everything in {{ category.title }}\">\n   34  \n   35: 					<span class=\"count\">{{ category.counts.total }}</span>\n   36  					<h3>{{ category.title }}</h3>\n   37  \n\nC:\\xampp\\htdocs\\koken\\storage\\themes\\WJ\\category.lens:\n   67  										<koken:link title=\"View everything in {{ category.title }}\">\n   68  \n   69: 											<span class=\"count\">{{ category.counts.total }}</span>\n   70  											<h4>{{ category.title }}</h4>\n   71  \n\nC:\\xampp\\htdocs\\koken\\storage\\themes\\WJ\\tag.lens:\n   67  										<koken:link title=\"View everything in {{ tag.title }}\">\n   68  \n   69: 											<span class=\"count\">{{ tag.counts.total }}</span>\n   70  											<h4 class=\"tag\">{{ tag.title }}</h4>\n   71  \n\nC:\\xampp\\htdocs\\koken\\storage\\themes\\WJ\\tags.lens:\n   33  				<koken:link title=\"View everything in {{ tag.title }}\">\n   34  \n   35: 					<span class=\"count\">{{ tag.counts.total }}</span>\n   36  					<h3 class=\"tag\">{{ tag.title }}</h3>\n   37  \n\nC:\\xampp\\htdocs\\koken\\storage\\themes\\WJ\\layouts\\essays-aside.html:\n   39  					<koken:link title=\"View all {{ labels.essay.plural case='lower' }} in {{ category.title }}\">\n   40  \n   41: 						<span class=\"count\">{{ category.counts.total }}</span>\n   42  						<h4>{{ category.title }}</h4>\n   43  \n   ..\n   76  					<koken:link title=\"View all {{ labels.essay.plural case='lower' }} in {{ tag.title }}\">\n   77  \n   78: 						<span class=\"count\">{{ tag.counts.total }}</span>\n   79  						<h4 class=\"tag\">{{ tag.title }}</h4>\n   80  \n\nC:\\xampp\\htdocs\\koken\\storage\\themes\\WJ\\layouts\\pagination.html:\n    3  	<nav class=\"paginate\">\n    4  \n    5: 		<span class=\"count\">\n    6  			{{ page }} of {{ pages }}\n    7  		</span>\n\n7 matches across 6 files\n\n\nSearching 92 files for \"<header class=\"content page\">\"\n\nC:\\xampp\\htdocs\\koken\\storage\\themes\\WJ\\archive.albums.lens:\n   34  <koken:load limit=\"{{ settings.albums_index_limit }}\">\n   35  \n   36: <header class=\"content page\">\n   37  \n   38  	<span class=\"wrap first\">\n\nC:\\xampp\\htdocs\\koken\\storage\\themes\\WJ\\archive.contents.lens:\n   26  <koken:load limit=\"{{ settings.content_index_limit }}\">\n   27  \n   28: <header class=\"content page\">\n   29  \n   30  	<span class=\"wrap first\">\n\nC:\\xampp\\htdocs\\koken\\storage\\themes\\WJ\\archive.essays.lens:\n   13  <koken:variable name=\"list\" value=\"true\" />\n   14  \n   15: <header class=\"content page\">\n   16  \n   17  	<span class=\"wrap first\">\n\nC:\\xampp\\htdocs\\koken\\storage\\themes\\WJ\\category.lens:\n   13  	<div id=\"twocol\">\n   14  \n   15: 		<header class=\"content page\">\n   16  \n   17  			<span class=\"wrap first\">\n\nC:\\xampp\\htdocs\\koken\\storage\\themes\\WJ\\content.lens:\n   23  <div id=\"twocol\">\n   24  \n   25: 	<header class=\"content page\">\n   26  \n   27  		<span class=\"wrap first\">\n\nC:\\xampp\\htdocs\\koken\\storage\\themes\\WJ\\date.lens:\n   11  	</koken:head>\n   12  \n   13: 	<header class=\"content page\">\n   14  \n   15  		<span class=\"wrap first\">\n\nC:\\xampp\\htdocs\\koken\\storage\\themes\\WJ\\essay.lens:\n   27  		</koken:head>\n   28  \n   29: 		<header class=\"content page\">\n   30  \n   31  			<span class=\"wrap first\">\n\nC:\\xampp\\htdocs\\koken\\storage\\themes\\WJ\\tag.lens:\n   13  	<div id=\"twocol\">\n   14  \n   15: 		<header class=\"content page\">\n   16  \n   17  			<span class=\"wrap first\">\n\n8 matches across 8 files\n",
+			"settings":
+			{
+				"buffer_size": 4554,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "content.lens",
+			"settings":
+			{
+				"buffer_size": 7866,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "layouts/pagination.html",
+			"settings":
+			{
+				"buffer_size": 905,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "layouts/event_essay.html",
+			"settings":
+			{
+				"buffer_size": 2204,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "set.lens",
+			"settings":
+			{
+				"buffer_size": 1608,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "css/settings.css.lens",
 			"settings":
 			{
-				"buffer_size": 19581,
+				"buffer_size": 19738,
 				"line_ending": "Windows"
 			}
 		},
@@ -375,7 +417,7 @@
 			"file": "layouts/album_detail_thumbs.html",
 			"settings":
 			{
-				"buffer_size": 1388,
+				"buffer_size": 1323,
 				"line_ending": "Unix"
 			}
 		},
@@ -383,39 +425,23 @@
 			"file": "layouts/album_index_loop.html",
 			"settings":
 			{
-				"buffer_size": 1363,
+				"buffer_size": 1411,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "layouts/footer.html",
+			"file": "album.lens",
 			"settings":
 			{
-				"buffer_size": 5435,
+				"buffer_size": 1566,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "layouts/content_list_item.html",
+			"file": "layouts/album_title_header.html",
 			"settings":
 			{
-				"buffer_size": 1024,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "albums.lens",
-			"settings":
-			{
-				"buffer_size": 1659,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "layouts/header.html",
-			"settings":
-			{
-				"buffer_size": 2886,
+				"buffer_size": 1530,
 				"line_ending": "Unix"
 			}
 		}
@@ -475,18 +501,24 @@
 	[
 		"/C/xampp/htdocs/koken/storage/themes/WJ",
 		"/C/xampp/htdocs/koken/storage/themes/WJ/css",
+		"/C/xampp/htdocs/koken/storage/themes/WJ/css/body",
 		"/C/xampp/htdocs/koken/storage/themes/WJ/layouts"
 	],
 	"file_history":
 	[
+		"/C/xampp/htdocs/koken/storage/themes/WJ/archive.albums.lens",
+		"/C/xampp/htdocs/koken/storage/themes/WJ/layouts/album_title_header.html",
+		"/C/xampp/htdocs/koken/storage/themes/WJ/index.lens",
+		"/C/xampp/htdocs/koken/storage/themes/WJ/layouts/album_index_loop.html",
+		"/C/xampp/htdocs/koken/storage/themes/WJ/css/body/helvetica.css",
+		"/C/xampp/htdocs/koken/storage/themes/WJ/layouts/footer.html",
+		"/C/xampp/htdocs/koken/storage/themes/WJ/layouts/content_list_item.html",
+		"/C/xampp/htdocs/koken/storage/themes/WJ/albums.lens",
+		"/C/xampp/htdocs/koken/storage/themes/WJ/layouts/header.html",
 		"/C/xampp/htdocs/koken/storage/themes/WJ/layouts/album_detail_thumbs.html",
 		"/C/Users/Woody/Google Диск/Design/Other/portfolio/html/index.html",
-		"/C/xampp/htdocs/koken/storage/themes/WJ/albums.lens",
 		"/C/xampp/htdocs/koken/storage/themes/WJ/info.json",
-		"/C/xampp/htdocs/koken/storage/themes/WJ/index.lens",
 		"/C/xampp/htdocs/koken/storage/themes/WJ/css/settings.css.lens",
-		"/C/xampp/htdocs/koken/storage/themes/WJ/layouts/header.html",
-		"/C/xampp/htdocs/koken/storage/themes/WJ/layouts/footer.html",
 		"/C/xampp/htdocs/koken/storage/themes/WJ/css/kicons.css",
 		"/C/xampp/htdocs/wantam/design/themes/wantam/sublime.sublime-project",
 		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/addons/at_design/views/at_profiles/want_present.tpl",
@@ -601,12 +633,7 @@
 		"/C/xampp/htdocs/wordpress/wp-content/themes/potapov/index.php",
 		"/C/xampp/htdocs/wordpress/wp-content/themes/potapov/header.php",
 		"/C/xampp/htdocs/wordpress/wp-content/themes/potapov/style.css",
-		"/C/xampp/htdocs/wordpress/wp-content/themes/potapov/css/bootstrap.css",
-		"/C/xampp/apache/conf/extra/httpd-vhosts.conf",
-		"/C/Users/Woody/Google Диск/Pagemaking/Potapov/v4/img/logo.svg",
-		"/C/Users/Woody/Desktop/Vector Smart Object.svg",
-		"/C/Users/Woody/Google Диск/Pagemaking/Mosaica/uldelo/html/admin/articles-create.html",
-		"/C/Users/Woody/Desktop/pp_old.svg"
+		"/C/xampp/htdocs/wordpress/wp-content/themes/potapov/css/bootstrap.css"
 	],
 	"find":
 	{
@@ -625,6 +652,29 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"prev",
+			"view-album",
+			"page",
+			"<header class=\"content page\">",
+			" of ",
+			"<span class=\"count\">",
+			"<li class=\"next\">",
+			".text-align",
+			"<ol class=\"thumbs\"",
+			"layouts/album_detail_thumbs.html",
+			"thumbs",
+			"<ol class=\"thumbs\">",
+			"a:hover",
+			"content page",
+			"body",
+			"wj-prew",
+			"work-co",
+			"roboto",
+			"helv",
+			"font-family",
+			"container",
+			"h2",
+			"loop",
 			"-md-",
 			"wj-logo",
 			".transition",
@@ -729,30 +779,7 @@
 			"цвета",
 			"wa-cats-prev-containerюwa-bonus-container",
 			"wa-cats-prev-container wa-bonus-container",
-			"ty-margin",
-			"ty-discount",
-			"ty-discount-label",
-			"ty-value-changer__increase",
-			".ty-product-block__wrapper",
-			"ty-product-block__wrapper",
-			"ty-product-detail",
-			"view_main_info",
-			"ty-product-detail",
-			"product_tabs",
-			"description",
-			"id=\"description\"",
-			"<li id=\"description\"",
-			"featur",
-			"ty-tabs",
-			"ty-tabs cm-j-tabs clearfix",
-			"tabs",
-			"include file=\"views/products/components/product_features.tpl",
-			"{include file=\"views/products/components/product_featires.tpl\"",
-			"components",
-			"ty-product-feature-group",
-			"content_features",
-			"ty-tabs cm-j-tabs",
-			"ty-tabs cm-j-tabs clearfix"
+			"ty-margin"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -776,7 +803,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -785,15 +812,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6960,
+						"buffer_size": 8039,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6252,
-								6252
+								8039,
+								8039
 							]
 						],
 						"settings":
@@ -804,27 +831,269 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 7144.0,
+						"translation.y": 8836.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "css/settings.css.lens",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 19581,
+						"buffer_size": 4554,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										138,
+										156
+									],
+									[
+										283,
+										301
+									],
+									[
+										466,
+										484
+									],
+									[
+										663,
+										681
+									],
+									[
+										844,
+										862
+									],
+									[
+										1083,
+										1100
+									],
+									[
+										1372,
+										1392
+									],
+									[
+										1637,
+										1657
+									],
+									[
+										1898,
+										1918
+									],
+									[
+										2150,
+										2170
+									],
+									[
+										2451,
+										2471
+									],
+									[
+										2684,
+										2704
+									],
+									[
+										2906,
+										2926
+									],
+									[
+										3202,
+										3231
+									],
+									[
+										3416,
+										3445
+									],
+									[
+										3616,
+										3645
+									],
+									[
+										3787,
+										3816
+									],
+									[
+										3957,
+										3986
+									],
+									[
+										4120,
+										4149
+									],
+									[
+										4286,
+										4315
+									],
+									[
+										4454,
+										4483
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								3904,
+								3904
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 4,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ 	].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1818.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "content.lens",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7866,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								506,
-								506
+								1546,
+								1546
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 638.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "layouts/pagination.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 905,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								95,
+								95
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 54.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "layouts/event_essay.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2204,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								291,
+								291
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "set.lens",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1608,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1405,
+								1405
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "css/settings.css.lens",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19738,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8343,
+								8343
 							]
 						],
 						"settings":
@@ -834,27 +1103,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 278.0,
+						"translation.y": 8306.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 7,
 					"file": "layouts/album_detail_thumbs.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1388,
+						"buffer_size": 1323,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								52,
-								52
+								842,
+								842
 							]
 						],
 						"settings":
@@ -864,32 +1133,31 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 36.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 8,
 					"file": "layouts/album_index_loop.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1363,
+						"buffer_size": 1411,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								29,
-								40
+								787,
+								787
 							]
 						],
 						"settings":
 						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
@@ -897,58 +1165,28 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "layouts/footer.html",
+					"buffer": 9,
+					"file": "album.lens",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5435,
+						"buffer_size": 1566,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								796,
-								796
+								1282,
+								1282
 							]
 						],
 						"settings":
 						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 216.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "layouts/content_list_item.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1024,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
@@ -960,20 +1198,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "albums.lens",
+					"buffer": 10,
+					"file": "layouts/album_title_header.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1659,
+						"buffer_size": 1530,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1454,
-								1454
+								347,
+								363
 							]
 						],
 						"settings":
@@ -982,40 +1220,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 216.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "layouts/header.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2886,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2884,
-								2884
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 810.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
+					"stack_index": 6,
 					"type": "text"
 				}
 			]

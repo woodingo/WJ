@@ -1,15 +1,19 @@
 <div class="head_title">
-
-	<h2>
-		{{ album.title }}
-		<koken:filtered>
-			&nbsp;<span class="filter_count">{{ filter.count }} of {{ album.counts.total }} / <koken:link title="View {{ album.title }}">View all</koken:link></span>
-		</koken:filtered>
-	</h2>
-
-	<koken:if true="settings.show_album_desc">
-		{{ album.description paragraphs="true" }}
-	</koken:if>
+	
+	<div class="text-center">
+		<h2 class="wj-album-title">
+			{{ album.title }}
+			<koken:filtered>
+				&nbsp;<span class="filter_count">{{ filter.count }} of {{ album.counts.total }} / <koken:link title="View {{ album.title }}">View all</koken:link></span>
+			</koken:filtered>
+		</h2>
+	</div>
+	
+	<div class="text-center wj-album-caption">
+		<koken:if true="settings.show_album_desc">
+			{{ album.description paragraphs="true" }}
+		</koken:if>
+	</div>
 
 	<koken:if true="settings.albums_detail_show_cats">
 
