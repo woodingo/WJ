@@ -38,25 +38,25 @@
                     </div>
                     <hr>
                     <div class="contact-form">
-						<p class="k-contact-form-success" style="display: none">Тестовое сообщение (для чего это вообще о_О)</p>
-						<form method="post" class="k-contact-form" id="k-contact-form-e538b0f40c25feb6bfaf5232836ccacd">	<input type="hidden" name="koken_contact_form" value="1" />
+						<p class="k-contact-form-success" style="display: none">Спасибо, успешно отправлено. До связи.</p>
+						<form method="post" class="k-contact-form" id="k-contact-form-9d4560ae67bea87408d62f9ea8e43177">	<input type="hidden" name="koken_contact_form" value="1" />
 							<div class="row">
 								<div class="col-md-4">
-									<input class="text-input" id="k-contact-form-e538b0f40c25feb6bfaf5232836ccacd-k-contact-field-0" name="k-contact-field-0" type="email" placeholder="Ваш Email" />
+									<input class="text-input" id="k-contact-form-9d4560ae67bea87408d62f9ea8e43177-k-contact-field-0" name="k-contact-field-0" type="email" placeholder="Email" />
 								</div>
 								<div class="col-md-4">
-									<input class="text-input" id="k-contact-form-e538b0f40c25feb6bfaf5232836ccacd-k-contact-field-1" name="k-contact-field-1" type="text" placeholder="Тема"></input>
+									<input class="text-input" id="k-contact-form-9d4560ae67bea87408d62f9ea8e43177-k-contact-field-1" name="k-contact-field-1" type="tel" placeholder="Номер телефона"></input>
 								</div>
 								<div class="col-md-4">
 									<input type="text" name="k-contact-field-dummy" style="display:none" />
-									<input type="hidden" name="labels" value='["\u0412\u0430\u0448 email","\u0422\u0435\u043a\u0441\u0442 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f"]' />
+									<input type="hidden" name="labels" value='["Email",null]' />
 									<input type="hidden" name="from_field" value="k-contact-field-0" />
 									<button type="submit" class="btn">Отправить</button>
 								</div>
 							</div>					
 						</form>
 						<script>
-							$(document).off('submit.contact').on('submit.contact', '#k-contact-form-e538b0f40c25feb6bfaf5232836ccacd', function() {
+							$(document).off('submit.contact').on('submit.contact', '#k-contact-form-9d4560ae67bea87408d62f9ea8e43177', function() {
 							var form = $(this);
 							var button = form.find('button[type="submit"]');
 							var required = ["k-contact-field-0","k-contact-field-1"];
