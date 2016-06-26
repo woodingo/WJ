@@ -129,11 +129,11 @@
         <div>
             <div class="row">
                 <div class="col-md-3 col-sm-6">
-                    <a href="#" style="display: block; margin: 0 -15px;" class="animated fadeIn wj-logo-container">
+                    <koken:link to="front" style="display: block; margin: 0 -15px;" class="animated fadeIn wj-logo-container">
                         <svg viewBox="0 0 220 250" class="wj-logo">
                             <use xlink:href="#wj-logo">
                         </svg>
-                    </a>
+                    </koken:link>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <a href="#" class="work-container animated fadeIn">
@@ -147,7 +147,7 @@
                     </a>
                 </div>
                 <div class="col-md-3 col-sm-6">
-                    <a href="#" class="work-container animated fadeIn">
+                    <a href="albums/gazety/" class="work-container animated fadeIn">
                         <div class="work" style="background-image: url({{ location.theme_path }}/css/img/2-2.jpg)"></div>
                         <div class="work-colored" style="background-image: url({{ location.theme_path }}/css/img/2-1.jpg)"></div>
                         <div class="work-ed">
