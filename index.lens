@@ -158,7 +158,7 @@
                     </a>
                 </div>
                 <div class="col-md-3 col-sm-6">
-                    <a href="#" class="work-container animated fadeIn">
+                    <a href="albums/zhurnaly/" class="work-container animated fadeIn">
                         <div class="work" style="background-image: url({{ location.theme_path }}/css/img/3-2.jpg)"></div>
                         <div class="work-colored" style="background-image: url({{ location.theme_path }}/css/img/3-1.jpg)"></div>
                         <div class="work-ed">
@@ -171,7 +171,7 @@
             </div>
             <div class="row">
                 <div class="col-md-3 col-sm-6">
-                    <a href="#" class="work-container animated fadeIn">
+                    <a href="/albums/buklety-listovki/" class="work-container animated fadeIn">
                         <div class="work" style="background-image: url({{ location.theme_path }}/css/img/4-2.jpg)"></div>
                         <div class="work-colored" style="background-image: url({{ location.theme_path }}/css/img/4-1.jpg)"></div>
                         <div class="work-ed">
@@ -182,7 +182,7 @@
                     </a>
                 </div>
                 <div class="col-md-3 col-sm-6">
-                    <a href="#" class="work-container animated fadeIn">
+                    <a href="albums/saity/" class="work-container animated fadeIn">
                         <div class="work" style="background-image: url({{ location.theme_path }}/css/img/5-2.jpg)"></div>
                         <div class="work-colored" style="background-image: url({{ location.theme_path }}/css/img/5-1.jpg)"></div>
                         <div class="work-ed">

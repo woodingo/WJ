@@ -245,7 +245,7 @@ button {
 .button:hover,
 button:focus,
 button:hover {
-    background-color: $color_links_hover;
+    background-color: #fff;
     color: $color_text_reverse
 }
 
@@ -429,7 +429,7 @@ p.meta-links a:visited {
 }
 
 p.meta-links a:hover {
-    color: $color_links_hover
+    color: #fff;
 }
 
 img.k-lazy-loading {
@@ -452,7 +452,7 @@ section {
 }
 
 .filter_count a:hover {
-    color: $color_links_hover
+    color: #fff
 }
 
 main {
@@ -596,7 +596,7 @@ div#crumbs a {
 }
 
 div#crumbs a:hover {
-    color: $color_links_hover
+    color: #fff
 }
 
 footer.bot {
@@ -1173,7 +1173,7 @@ a.icon {
 
 .share_button.active,
 .share_button:hover {
-    color: $color_links_hover
+    color: #fff
 }
 
 ol.meta_list li h3,
@@ -1208,7 +1208,7 @@ ol.meta_list li a span.count {
 }
 
 ol.meta_list li a:hover span.count {
-    color: $color_links_hover
+    color: #fff
 }
 
 aside ol.meta_list li a {

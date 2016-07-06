@@ -4,7 +4,7 @@
 
 		<figure class="wj-thumb">
 
-			<koken:link title="View {{ content.title | content.filename }}" class="thumb">
+			<koken:link title="View {{ content.title | content.filename }}" class="thumb" lightbox="true">
 
 				<koken:img class="preview" lazy="true" size="1:1" />
 
@@ -12,18 +12,14 @@
 
 			</koken:link>
 
-			<koken:link class="wj-thumb-overlay"></koken:link>
+			<koken:link class="wj-thumb-overlay" lightbox="true"></koken:link>
 
 			<figcaption class="wj-caption">
-
-				<koken:if true="settings.albums_detail_show_date">
-					<koken:time class="date" />
-				</koken:if>
 
 				<koken:if true="settings.albums_detail_show_title">
 
 					<h2>
-						<koken:link title="{{ content.title | content.filename }}">
+						<koken:link title="{{ content.title | content.filename }}" lightbox="true">
 							{{ content.title | content.filename }}
 						</koken:link>
 					</h2>

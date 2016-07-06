@@ -10,19 +10,7 @@
 		<meta property="og:url" content="{{ location.site_url }}{{ location.here }}" />
 	</koken:head>
 
-	<div id="twocol">
-
-		<header class="content page">
-
-			<span class="wrap first">
-
-				<koken:breadcrumbs separator="/" />
-
-			</span>
-
-		</header>
-
-		<div class="mcol">
+		<div class="row">
 
 			<koken:loop>
 
@@ -42,56 +30,7 @@
 
 		</div>
 
-		<div class="rcol">
-
-			<aside>
-
-				<koken:if true="settings.category_show_list">
-
-					<section>
-
-						<koken:load source="categories">
-
-							<header class="content">
-								<span class="wrap first">
-									{{ labels.category.plural }}
-								</span>
-							</header>
-
-							<ol class="meta_list">
-
-								<koken:loop>
-
-									<li>
-
-										<koken:link title="View everything in {{ category.title }}">
-
-											<span class="count">{{ category.counts.total }}</span>
-											<h4>{{ category.title }}</h4>
-
-										</koken:link>
-
-									</li>
-
-								</koken:loop>
-
-							</ol>
-
-						</koken:load>
-
-					</section>
-
-				</koken:if>
-
-				<koken:include file="layouts/timeline_aside.html" />
-
-			</aside>
-
-		</div>
-
 		<koken:include file="layouts/pagination.html" />
-
-	</div>
 
 </koken:load>
 
