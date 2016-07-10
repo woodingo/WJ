@@ -10,6 +10,12 @@
 		<meta property="og:url" content="{{ location.site_url }}{{ location.here }}" />
 	</koken:head>
 
+		<div class="head_title">
+			<div class="text-center">
+				<h2 class="wj-album-title">{{ category.title }}</h2>
+			</div>			
+		</div>
+
 		<div class="row">
 
 			<koken:loop>

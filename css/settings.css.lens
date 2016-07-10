@@ -346,10 +346,6 @@ a.disabled:hover {
     color: $color_text
 }
 
-a.norm {
-    color: $color_links!important
-}
-
 a.tag:before {
     content: "#"
 }
@@ -765,7 +761,7 @@ aside a:visited {
 aside a.norm:active,
 aside a.norm:link,
 aside a.norm:visited {
-    color: $color_links
+    color: #787878;
 }
 
 aside a:hover {

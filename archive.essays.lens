@@ -12,37 +12,25 @@
 
 <koken:variable name="list" value="true" />
 
-<header class="content page">
-
-	<span class="wrap first">
-
-		<koken:breadcrumbs separator="/" />
-
-	</span>
-
-</header>
+	<div class="row">
+		<div class="col-xs-12">
+			<span class="wj-breadcrumbs">
+				<koken:breadcrumbs separator="/" />
+			</span>
+		</div>
+	</div>
 
 <br>
 
-<div id="twocol">
+<div>
 
-	<div class="mcol">
+	<div class="row">
 
 		<koken:loop>
 
-			<koken:include file="layouts/article.html" />
+			<koken:include file="layouts/event_essay.html" />
 
 		</koken:loop>
-
-	</div>
-
-	<div class="rcol">
-
-		<aside>
-
-			<koken:include file="layouts/essays-aside.html" />
-
-		</aside>
 
 	</div>
 
