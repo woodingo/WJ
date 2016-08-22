@@ -1,7 +1,9 @@
 a {
     color: inherit;
 
-    &:hover {
+    &:hover,
+    &:active,
+    &:focus {
         color: #fff;
     }
 }
@@ -44,6 +46,10 @@ a {
     margin-top: 0;
     margin-left: 0;
     margin-right: 0;
+}
+
+.text-light {
+    font-weight: 300;
 }
 
 .text-right {
@@ -352,7 +358,7 @@ footer.wj-footer {
 .percent {
     font-size: 46px;
     font-weight: 700;
-    margin: 25px 0 0;
+    margin: 10px 0 0;
     line-height: 1;
     margin-right: -10px;
 }
@@ -581,4 +587,58 @@ footer.wj-footer {
 .wj-list {
     list-style-type: none;
     padding-left: 0;
+}
+
+.marker-list {
+    padding-left: 15px;
+    list-style-type: none;
+
+    li {
+        position: relative;
+        margin-bottom: 10px;
+
+        &:before {
+            display: inline-block;
+            content: "»";
+            position: absolute;
+            left: -15px;
+        }
+    }
+}
+
+.wj-about-page {
+    h3 {
+        text-transform: uppercase;
+
+        &.about-header {
+            padding-right: 30px;
+            border-right: 2px solid rgba(255, 255, 255, 0.1);
+        }
+    }
+
+    section {
+        position: relative;
+        padding: 50px 0;
+        overflow: hidden;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    }
+
+    .tools-point {
+        svg {
+            max-height: 100px;
+        }
+    }
+
+    .wj-about-photo {
+        display: inline-block;
+        margin: 0 auto;
+        border-radius: 50%;
+        box-shadow: 7px 4px 10px rgba(0,0,0,0.5);
+    }
+}
+
+@media (max-width: 992px) {
+  .text-right {
+    text-align: center;
+  }
 }
