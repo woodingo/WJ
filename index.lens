@@ -136,7 +136,7 @@
                     </koken:link>
                 </div>
                 <div class="col-md-3 col-sm-6">
-                    <a href="#" class="work-container animated fadeIn">
+                    <a href="pages/obo-mne/" class="work-container animated fadeIn">
                         <div class="work" style="background-image: url({{ location.theme_path }}/css/img/1-2.jpg)"></div>
                         <div class="work-colored" style="background-image: url({{ location.theme_path }}/css/img/1-1.jpg)"></div>
                         <div class="work-ed">
