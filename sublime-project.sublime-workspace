@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"max-",
+				"max-width"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
 				"bor",
 				"border"
 			],
@@ -112,10 +120,6 @@
 				"border"
 			],
 			[
-				"max-",
-				"max-height"
-			],
-			[
 				"in",
 				"inline"
 			],
@@ -210,10 +214,6 @@
 			[
 				"paddi",
 				"padding"
-			],
-			[
-				"min",
-				"min-height"
 			],
 			[
 				"co",
@@ -355,54 +355,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "css/style.less",
-			"settings":
-			{
-				"buffer_size": 8107,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "layouts/header.html",
-			"settings":
-			{
-				"buffer_size": 2885,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "index.lens",
-			"settings":
-			{
-				"buffer_size": 14809,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "album.lens",
-			"settings":
-			{
-				"buffer_size": 1566,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "layouts/album_detail_thumbs.html",
-			"settings":
-			{
-				"buffer_size": 1371,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "albums.lens",
-			"settings":
-			{
-				"buffer_size": 1659,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -467,23 +419,38 @@
 	],
 	"file_history":
 	[
-		"/C/Users/Woody/Desktop/7-00.8-00.8-40.9-40.10-20.11-20",
-		"/C/xampp/htdocs/koken/storage/themes/WJ/layouts/footer.html",
-		"/C/xampp/htdocs/koken/storage/themes/WJ/css/settings.css.lens",
 		"/C/xampp/htdocs/koken/storage/themes/WJ/css/style.less",
+		"/C/xampp/htdocs/koken/storage/themes/WJ/css/settings.css.lens",
+		"/C/Users/Woody/Desktop/PP.txt",
+		"/C/Program Files (x86)/Steam/steamapps/common/Starbound/storage/starbound_server.config",
+		"/C/xampp/htdocs/koken/storage/themes/WJ/archive.essays.lens",
+		"/C/xampp/htdocs/koken/storage/themes/WJ/layouts/article.html",
 		"/C/xampp/htdocs/koken/storage/themes/WJ/content.lens",
-		"/C/xampp/htdocs/koken/storage/themes/WJ/layouts/pagination.html",
-		"/C/xampp/htdocs/koken/storage/themes/WJ/set.lens",
+		"/C/xampp/htdocs/koken/storage/themes/elementary/layouts/article-aside.html",
+		"/C/xampp/htdocs/koken/storage/themes/WJ/essay.lens",
+		"/C/xampp/htdocs/koken/storage/themes/WJ/categories.lens",
+		"/C/xampp/htdocs/koken/storage/themes/elementary/category.lens",
+		"/C/xampp/htdocs/koken/storage/themes/WJ/essays.lens",
+		"/C/xampp/htdocs/koken/storage/themes/WJ/category.lens",
+		"/C/xampp/htdocs/koken/app/site/tags/TagBreadcrumbs.php",
+		"/C/xampp/htdocs/koken/storage/themes/WJ/layouts/essays-aside.html",
+		"/C/xampp/htdocs/koken/storage/themes/WJ/contents.lens",
+		"/C/xampp/htdocs/koken/storage/themes/WJ/layouts/event_content.html",
+		"/C/xampp/htdocs/koken/storage/themes/WJ/layouts/event_essay.html",
 		"/C/xampp/htdocs/koken/storage/themes/WJ/layouts/album_detail_thumbs.html",
 		"/C/xampp/htdocs/koken/storage/themes/WJ/layouts/album_index_loop.html",
+		"/C/xampp/htdocs/koken/storage/themes/WJ/layouts/header.html",
+		"/C/xampp/htdocs/koken/storage/themes/WJ/index.lens",
 		"/C/xampp/htdocs/koken/storage/themes/WJ/album.lens",
+		"/C/xampp/htdocs/koken/storage/themes/WJ/albums.lens",
+		"/C/Users/Woody/Desktop/7-00.8-00.8-40.9-40.10-20.11-20",
+		"/C/xampp/htdocs/koken/storage/themes/WJ/layouts/footer.html",
+		"/C/xampp/htdocs/koken/storage/themes/WJ/layouts/pagination.html",
+		"/C/xampp/htdocs/koken/storage/themes/WJ/set.lens",
 		"/C/xampp/htdocs/koken/storage/themes/WJ/layouts/album_title_header.html",
 		"/C/xampp/htdocs/koken/storage/themes/WJ/archive.albums.lens",
-		"/C/xampp/htdocs/koken/storage/themes/WJ/index.lens",
 		"/C/xampp/htdocs/koken/storage/themes/WJ/css/body/helvetica.css",
 		"/C/xampp/htdocs/koken/storage/themes/WJ/layouts/content_list_item.html",
-		"/C/xampp/htdocs/koken/storage/themes/WJ/albums.lens",
-		"/C/xampp/htdocs/koken/storage/themes/WJ/layouts/header.html",
 		"/C/Users/Woody/Google Диск/Design/Other/portfolio/html/index.html",
 		"/C/xampp/htdocs/koken/storage/themes/WJ/info.json",
 		"/C/xampp/htdocs/koken/storage/themes/WJ/css/kicons.css",
@@ -579,22 +546,7 @@
 		"/C/Users/Woody/Google Диск/Pagemaking/Mosaica/landing-digital/html/css/style.less",
 		"/C/Users/Woody/Google Диск/Pagemaking/Mosaica/landing-digital/html/index.html",
 		"/C/Users/Woody/Google Диск/Pagemaking/Mosaica/landing-digital/html/css/bootstrap.css",
-		"/C/xampp/htdocs/monstra/public/themes/potapov/homepage.template.php",
-		"/C/xampp/htdocs/monstra/public/themes/potapov/footer.chunk.php",
-		"/C/xampp/htdocs/monstra/public/themes/potapov/blog-post.template.php",
-		"/C/xampp/htdocs/monstra/public/themes/potapov/blog.template.php",
-		"/C/xampp/htdocs/monstra/public/themes/potapov/index.template.php",
-		"/C/Users/Woody/Desktop/lang.html",
-		"/C/xampp/htdocs/monstra/public/themes/default/index.template.php",
-		"/C/xampp/htdocs/monstra/public/themes/potapov/header.chunk.php",
-		"/C/xampp/htdocs/monstra/plugins/contact/views/frontend/form.view.php",
-		"/C/Users/Woody/Google Диск/Pagemaking/Potapov/v4/index.html",
-		"/C/xampp/htdocs/monstra/plugins/contact/views/frontend/form.view.php.bkp",
-		"/C/xampp/htdocs/monstra/public/themes/potapov/css/circle-player/skin/circle.player.css",
-		"/C/xampp/htdocs/monstra/public/themes/default/blog.template.php",
-		"/C/xampp/htdocs/monstra/plugins/contact/contact.plugin.php",
-		"/C/xampp/htdocs/monstra/public/themes/potapov/index.html",
-		"/C/xampp/htdocs/monstra/public/themes/potapov/footer-links.chunk.php"
+		"/C/xampp/htdocs/monstra/public/themes/potapov/homepage.template.php"
 	],
 	"find":
 	{
@@ -613,6 +565,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ui-dialog-titlebar-close",
+			".ui-dialog-titlebar-close",
+			"a.norm",
+			"nav#main a",
+			"$color_nav",
+			"wa-odn",
+			"wrap first",
+			"<span class=\"wrap first\">",
+			"$color_links_hover",
 			"link",
 			"wa-wished-scro",
 			".small-product-at-simple_4items",
@@ -731,16 +692,7 @@
 			"@tertiary_button",
 			"tertiary_button",
 			".ty-btn__tertiary",
-			"ty-btn__tertiary",
-			"wave",
-			"cart-items",
-			".ty-cart-items",
-			"wa-profile-header-container",
-			"input[type=\"checkbox\"]",
-			".wa-left",
-			".rounded_corners",
-			".ui-dialog .buttons-container",
-			"buttons-container"
+			"ty-btn__tertiary"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -764,187 +716,8 @@
 	"groups":
 	[
 		{
-			"selected": 4,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "css/style.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8107,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2435,
-								2435
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2474.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "layouts/header.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2885,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2682,
-								2669
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 324.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "index.lens",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 14809,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								9892,
-								9892
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 494.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "album.lens",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1566,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "layouts/album_detail_thumbs.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1371,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								879,
-								879
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 378.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "albums.lens",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1659,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
 			]
 		}
 	],

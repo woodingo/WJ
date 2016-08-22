@@ -182,7 +182,7 @@
                     </a>
                 </div>
                 <div class="col-md-3 col-sm-6">
-                    <a href="albums/saity/" class="work-container animated fadeIn">
+                    <a href="categories/saity/" class="work-container animated fadeIn">
                         <div class="work" style="background-image: url({{ location.theme_path }}/css/img/5-2.jpg)"></div>
                         <div class="work-colored" style="background-image: url({{ location.theme_path }}/css/img/5-1.jpg)"></div>
                         <div class="work-ed">
