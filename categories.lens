@@ -10,21 +10,21 @@
 	<meta property="og:url" content="{{ location.site_url }}{{ location.here }}" />
 </koken:head>
 
-<div id="twocol">
+<div class="row">
 
-	<div class="mcol">
+	<div class="col-sm-9">
 
 		<header class="content">
 
 			<span class="wrap first">
 
-				{{ labels.category.plural }}
+				Категории
 
 			</span>
 
 		</header>
 
-		<ol class="meta_list">
+		<ul class="wj-list">
 
 		<koken:loop>
 
@@ -32,8 +32,10 @@
 
 				<koken:link title="View everything in {{ category.title }}">
 
-					<span class="count">{{ category.counts.total }}</span>
-					<h3>{{ category.title }}</h3>
+					<h3>
+						{{ category.title }}
+						<span class="count">({{ category.counts.total }})</span>
+					</h3>
 
 				</koken:link>
 
@@ -41,11 +43,11 @@
 
 		</koken:loop>
 
-		</ol>
+		</ul>
 
 	</div>
 
-	<div class="rcol">
+	<div class="col-sm-3">
 
 		<aside>
 
@@ -57,7 +59,7 @@
 
 						<header class="content">
 							<span class="wrap first">
-								Latest in <koken:link class="norm" title="View everything in {{ category.title }}">{{ category.title }}</koken:link> ({{ category.counts.total }})
+								Последнее: <koken:link class="norm" title="View everything in {{ category.title }}">{{ category.title }}</koken:link> ({{ category.counts.total }})
 							</span>
 						</header>
 

@@ -10,33 +10,33 @@
 		<meta property="og:url" content="{{ location.site_url }}{{ location.here }}" />
 	</koken:head>
 
-		<div class="head_title">
-			<div class="text-center">
-				<h2 class="wj-album-title">{{ category.title }}</h2>
-			</div>			
-		</div>
+	<div class="head_title">
+		<div class="text-center">
+			<h2 class="wj-album-title">{{ category.title }}</h2>
+		</div>			
+	</div>
 
-		<div class="row">
+	<div class="row">
 
-			<koken:loop>
+		<koken:loop>
 
-				<koken:event>
+			<koken:event>
 
-					<koken:include file="layouts/event_album.html" />
+				<koken:include file="layouts/event_album.html" />
 
-					<koken:include file="layouts/event_album_update.html" />
+				<koken:include file="layouts/event_album_update.html" />
 
-					<koken:include file="layouts/event_content.html" />
+				<koken:include file="layouts/event_content.html" />
 
-					<koken:include file="layouts/event_essay.html" />
+				<koken:include file="layouts/event_essay.html" />
 
-				</koken:event>
+			</koken:event>
 
-			</koken:loop>
+		</koken:loop>
 
-		</div>
+	</div>
 
-		<koken:include file="layouts/pagination.html" />
+	<koken:include file="layouts/pagination.html" />
 
 </koken:load>
 
