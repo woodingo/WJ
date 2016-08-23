@@ -1212,7 +1212,7 @@ aside ol.meta_list li a {
 }
 
 .kevent {
-    margin-bottom: 2rem
+    margin-bottom: 0;
 }
 
 .kevent h3.featured:before {
