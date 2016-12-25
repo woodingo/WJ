@@ -447,6 +447,7 @@ footer.wj-footer {
 
     position: relative;
     margin-bottom: 0;
+    overflow: hidden;
 
     &:hover {
         .wj-caption {
@@ -637,8 +638,43 @@ footer.wj-footer {
     }
 }
 
+.banner-container-240-400 {
+    .fluid-width-video-wrapper {
+        max-width: 240px;
+        margin: 15px auto;
+
+        &:after {
+            display: block;
+            content: "";
+            padding-bottom: 166.66%;
+        }
+
+        embed {
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+
 @media (max-width: 992px) {
   .text-right {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .wj-logo-container {
+    border-left: none;
+  }
+
+  .wj-logo-small-container {
+    svg {
+        display: block;
+        margin: 0 auto;
+    }
+  }
+
+  nav#main ul {
     text-align: center;
   }
 }

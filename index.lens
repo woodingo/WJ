@@ -193,7 +193,7 @@
                     </a>
                 </div>
                 <div class="col-md-3 col-sm-6">
-                    <a href="#" class="work-container animated fadeIn">
+                    <a href="essays/2016/08/animation/" class="work-container animated fadeIn">
                         <div class="work" style="background-image: url({{ location.theme_path }}/css/img/6-2.jpg)"></div>
                         <div class="work-colored" style="background-image: url({{ location.theme_path }}/css/img/6-1.jpg)"></div>
                         <div class="work-ed">
@@ -204,11 +204,11 @@
                     </a>
                 </div>
                 <div class="col-md-3 col-sm-6">
-                    <a href="#" class="work-container animated fadeIn">
+                    <a href="categories/brending/" class="work-container animated fadeIn">
                         <div class="work" style="background-image: url({{ location.theme_path }}/css/img/7-2.jpg)"></div>
                         <div class="work-colored" style="background-image: url({{ location.theme_path }}/css/img/7-1.jpg)"></div>
                         <div class="work-ed">
-                            <h2>Фирменные стили</h2>
+                            <h2>Брендинг</h2>
                             <hr>
                             <p>Логотипы и айдентика</p>
                         </div>

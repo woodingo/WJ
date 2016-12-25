@@ -10,17 +10,19 @@
 
 			<div class="paginate">
 
-				<span class="fright">
+				<div class="row">
+					<div class="col-xs-6">
+						<koken:previous>
+							<koken:link class="paginate rarr" title="Read {{ essay.title }}">{{ essay.title truncate="42" }}</koken:link>
+						</koken:previous>
+					</div>
+					<div class="col-xs-6">
+						<koken:next>
+							<koken:link class="paginate larr" title="Read {{ essay.title }}">{{ essay.title truncate="42" }}</koken:link>
+						</koken:next>
+					</div>
+				</div>
 
-					<koken:previous>
-						<koken:link class="paginate rarr" title="Read {{ essay.title }}">{{ essay.title truncate="42" }}</koken:link>
-					</koken:previous>
-
-				</span>
-
-				<koken:next>
-					<koken:link class="paginate larr" title="Read {{ essay.title }}">{{ essay.title truncate="42" }}</koken:link>
-				</koken:next>
 
 			</div>
 

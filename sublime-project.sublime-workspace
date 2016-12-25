@@ -4,6 +4,46 @@
 		"selected_items":
 		[
 			[
+				"text-",
+				"text-align"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"border-top",
+				"border-top-left-radius"
+			],
+			[
+				"border-bo",
+				"border-bottom-left-radius"
+			],
+			[
+				"border-ra",
+				"border-bottom-right-radius"
+			],
+			[
+				"box-",
+				"box-sizing"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
 				"max-",
 				"max-width"
 			],
@@ -21,11 +61,7 @@
 			],
 			[
 				"pos",
-				"pos-a	position: absolute;"
-			],
-			[
-				"back",
-				"background-color"
+				"pos-a\tposition: absolute;"
 			],
 			[
 				"font",
@@ -36,20 +72,8 @@
 				"text-align"
 			],
 			[
-				"margin",
-				"margin-right"
-			],
-			[
-				"padd",
-				"padding-top"
-			],
-			[
 				"max",
 				"max-width"
-			],
-			[
-				"box-",
-				"box-shadow"
 			],
 			[
 				"mx",
@@ -68,10 +92,6 @@
 				"box-sizing"
 			],
 			[
-				"font-",
-				"font-style"
-			],
-			[
 				"marg",
 				"margin-top"
 			],
@@ -88,24 +108,12 @@
 				"max-height"
 			],
 			[
-				"border-bo",
-				"border-bottom"
-			],
-			[
 				"pad",
 				"padding"
 			],
 			[
 				"backg",
 				"background"
-			],
-			[
-				"pa",
-				"padding"
-			],
-			[
-				"text-",
-				"text-align"
 			],
 			[
 				"border-lef",
@@ -149,7 +157,7 @@
 			],
 			[
 				"po",
-				"pos-r	position: relative;"
+				"pos-r\tposition: relative;"
 			],
 			[
 				"bak",
@@ -180,16 +188,12 @@
 				"wa-cart-panel"
 			],
 			[
-				"border-ra",
-				"border-radius"
-			],
-			[
 				"paddin",
 				"padding"
 			],
 			[
 				"t",
-				"ta	text-align: ${1:left};"
+				"ta\ttext-align: ${1:left};"
 			],
 			[
 				"tex",
@@ -329,7 +333,7 @@
 			],
 			[
 				"c",
-				"class	Attr"
+				"class\tAttr"
 			],
 			[
 				"border-co",
@@ -355,6 +359,15 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/C/Users/Woody/.gitconfig",
+			"settings":
+			{
+				"buffer_size": 436,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -364,15 +377,27 @@
 	"command_palette":
 	{
 		"height": 196.0,
-		"last_filter": "html",
+		"last_filter": "hmtl",
 		"selected_items":
 		[
+			[
+				"hmtl",
+				"Set Syntax: HTML"
+			],
+			[
+				"less",
+				"Set Syntax: LESS"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
 			[
 				"html",
 				"Set Syntax: HTML"
 			],
 			[
-				"less",
+				"les",
 				"Set Syntax: LESS"
 			],
 			[
@@ -414,20 +439,46 @@
 	"expanded_folders":
 	[
 		"/C/xampp/htdocs/koken/storage/themes/WJ",
-		"/C/xampp/htdocs/koken/storage/themes/WJ/css",
-		"/C/xampp/htdocs/koken/storage/themes/WJ/layouts"
+		"/C/xampp/htdocs/koken/storage/themes/WJ/css"
 	],
 	"file_history":
 	[
-		"/C/xampp/htdocs/koken/storage/themes/WJ/css/style.less",
+		"/C/Users/Woody/Desktop/index.html",
+		"/C/Users/Woody/Documents/Klei/DST_Overworld/Cluster_1/cluster.ini",
+		"/C/Users/Woody/Documents/Klei/DST_Overworld/Cluster_1/Master/worldgenoverride.lua",
+		"/C/Users/Woody/Documents/Klei/DST_Overworld/Cluster_1/Master/modoverrides.lua",
+		"/C/Users/Woody/Documents/Klei/DST_Overworld/Cluster_1/Master/mods/dedicated_server_mods_setup.lua",
+		"/C/Users/Woody/Documents/Klei/DST_Overworld/Cluster_1/Master/mods/modsettings.lua",
+		"/C/Users/Woody/Documents/Klei/DST_Overworld/Cluster_1/Master/dedicated_server_mods_setup.lua",
+		"/C/Users/Woody/Documents/Klei/DST_Overworld/Cluster_1/Master/modsettings.lua",
+		"/C/Users/Woody/Documents/Klei/DoNotStarveTogether/WoDediServer/cluster_token.txt",
+		"/C/ProgramData/Western Digital/WD Sync/WD Sync.config",
+		"/C/Program Files (x86)/Steam/steamapps/common/Don't Starve Together/mods/modsettings.lua",
+		"/C/Users/Woody/Documents/Klei/DoNotStarveTogether/WoDediServer/cluster.ini",
+		"/C/Users/Woody/Documents/Klei/DoNotStarveTogether/WoDediServer/Master/server.ini",
+		"/C/Users/Woody/Documents/Klei/DoNotStarveTogether/WoDediServer/Caves/server.ini",
+		"/C/Users/Woody/Documents/Klei/DoNotStarveTogether/WoDediServer/Caves/worldgenoverride.lua",
+		"/C/Program Files (x86)/Steam/steamapps/common/Don't Starve Together Dedicated Server/bin/Server_Caves.bat",
+		"/C/Program Files (x86)/Steam/steamapps/common/Don't Starve Together Dedicated Server/bin/Server_Master.bat",
+		"/C/Users/Woody/Desktop/Слинги/divamilano.less",
+		"/C/Users/Woody/Google Диск/Pagemaking/Mosaica/newDesign/html_git/html/index.html",
+		"/C/Users/Woody/AppData/Roaming/Adobe/InDesign/Version 11.0/ru_RU/Scripts/Scripts Panel/scalePrint.jsx",
+		"/C/Program Files/Adobe/Adobe InDesign CC 2015/Scripts/Scripts Panel/Indic Preferences.js",
+		"/C/Users/Woody/Downloads/fontello-1cc923e1/css/fontello-embedded.css",
 		"/C/xampp/htdocs/koken/storage/themes/WJ/css/settings.css.lens",
+		"/C/xampp/htdocs/koken/storage/themes/WJ/css/style.less",
+		"/C/xampp/htdocs/koken/storage/themes/WJ/essay.lens",
+		"/C/xampp/htdocs/koken/storage/themes/WJ/index.lens",
+		"/C/Users/Woody/Downloads/fontello-1cc923e1/css/fontello-codes.css",
+		"/C/Users/Woody/Downloads/fontello-1cc923e1/css/fontello.css",
+		"/C/Users/Woody/Downloads/fontello-1cc923e1/css/fontello-ie7.css",
+		"/C/Users/Woody/Downloads/fontello-1cc923e1/css/fontello-ie7-codes.css",
 		"/C/Users/Woody/Desktop/PP.txt",
 		"/C/Program Files (x86)/Steam/steamapps/common/Starbound/storage/starbound_server.config",
 		"/C/xampp/htdocs/koken/storage/themes/WJ/archive.essays.lens",
 		"/C/xampp/htdocs/koken/storage/themes/WJ/layouts/article.html",
 		"/C/xampp/htdocs/koken/storage/themes/WJ/content.lens",
 		"/C/xampp/htdocs/koken/storage/themes/elementary/layouts/article-aside.html",
-		"/C/xampp/htdocs/koken/storage/themes/WJ/essay.lens",
 		"/C/xampp/htdocs/koken/storage/themes/WJ/categories.lens",
 		"/C/xampp/htdocs/koken/storage/themes/elementary/category.lens",
 		"/C/xampp/htdocs/koken/storage/themes/WJ/essays.lens",
@@ -440,7 +491,6 @@
 		"/C/xampp/htdocs/koken/storage/themes/WJ/layouts/album_detail_thumbs.html",
 		"/C/xampp/htdocs/koken/storage/themes/WJ/layouts/album_index_loop.html",
 		"/C/xampp/htdocs/koken/storage/themes/WJ/layouts/header.html",
-		"/C/xampp/htdocs/koken/storage/themes/WJ/index.lens",
 		"/C/xampp/htdocs/koken/storage/themes/WJ/album.lens",
 		"/C/xampp/htdocs/koken/storage/themes/WJ/albums.lens",
 		"/C/Users/Woody/Desktop/7-00.8-00.8-40.9-40.10-20.11-20",
@@ -497,7 +547,6 @@
 		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/addons/my_changes/hooks/products/product_tabs_bottom.override.tpl",
 		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/addons/at_design/blocks/account_data.tpl",
 		"/C/xampp/htdocs/wantam/design/themes/wantam/css/addons/yandex_delivery/styles.less",
-		"/C/Users/Woody/Desktop/index.html",
 		"/C/xampp/htdocs/monstra/public/themes/potapov/css/style.css",
 		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/blocks/product_templates/default_template.bkp.tpl",
 		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/addons/my_changes/hooks/products/view_main_info.pre.tpl",
@@ -521,32 +570,7 @@
 		"/C/Users/Woody/Google Диск/Pagemaking/Mosaica/uldelo/html/index.html",
 		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/blocks/static_templates/logo.tpl",
 		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/buttons/magnifier.tpl",
-		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/index.tpl",
-		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/blocks/cart_content.tpl",
-		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/blocks/cart_content.old.tpl",
-		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/buttons/clear_cart.tpl",
-		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/blocks/cart_content.new.tpl",
-		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/addons/wishlist/hooks/profiles/my_account_menu.post.tpl",
-		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/addons/rus_theme_style/blocks/static_templates/my_account_links_advanced.tpl",
-		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/addons/rus_theme_style/hooks/checkout/dropdown_title.override.tpl",
-		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/blocks/cart_content.bkp.tpl",
-		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/addons/my_changes/hooks/checkout/cart_content.override.tpl",
-		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/addons/my_changes/hooks/profiles/dropdown_title.override.tpl",
-		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/addons/my_changes/hooks/profiles/my_account_menu.post.tpl",
-		"/C/xampp/htdocs/wantam/design/themes/wantam/css/tygh/font-awesome.less",
-		"/C/Users/Woody/Downloads/latofonts.css",
-		"/C/Users/Woody/Google Диск/Pagemaking/Mosaica/uldelo/html/css/style.less",
-		"/C/Users/Woody/Dropbox (Личный)/Banners/2016/04/klinika_goda/1000x150-code/index.html",
-		"/C/Users/Woody/Dropbox (Личный)/Banners/2016/04/klinika_goda/1000x150-code/code.txt",
-		"/C/Users/Woody/Google Диск/Pagemaking/Mosaica/uldelo/html/admin/settings.html",
-		"/C/Users/Woody/Google Диск/Design/Other/portfolio/html/css/style.less",
-		"/C/Users/Woody/Google Диск/Pagemaking/Mosaica/uldelo/html/img/magazine.svg",
-		"/C/xampp/htdocs/cscart/design/themes/redCoral/css/styles.less",
-		"/C/Users/Woody/Google Диск/Pagemaking/Mosaica/Landing-UAZ/html/index.html",
-		"/C/Users/Woody/Google Диск/Pagemaking/Mosaica/landing-digital/html/css/style.less",
-		"/C/Users/Woody/Google Диск/Pagemaking/Mosaica/landing-digital/html/index.html",
-		"/C/Users/Woody/Google Диск/Pagemaking/Mosaica/landing-digital/html/css/bootstrap.css",
-		"/C/xampp/htdocs/monstra/public/themes/potapov/homepage.template.php"
+		"/C/xampp/htdocs/wantam/design/themes/wantam/templates/index.tpl"
 	],
 	"find":
 	{
@@ -565,6 +589,28 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".dm-user-block",
+			"product-title",
+			"wa-dram",
+			"20px 20px 20px 0",
+			"358",
+			".ty-grid-list__price",
+			"ty-grid-list__image",
+			".ty-grid-list__item-name",
+			".ty-quick-view-button",
+			".product-title",
+			"grid-list",
+			".grid-list",
+			"grid-list",
+			"wa-slider",
+			"wa-big-block-grid",
+			"gift",
+			"wa-slider-container",
+			"homepage-banners",
+			".wa-slider-container",
+			"homepage-banners",
+			"rarr",
+			"paginate",
 			"ui-dialog-titlebar-close",
 			".ui-dialog-titlebar-close",
 			"a.norm",
@@ -610,7 +656,7 @@
 			"wj-logo",
 			".transition",
 			"k-nav-list",
-			"					</",
+			"\t\t\t\t\t</",
 			"primary",
 			"menu",
 			"primary",
@@ -630,7 +676,7 @@
 			"<a href=\"#\" class=\"wa-wishlist-btn wa-round-btn wa-big-round-btn\"><i class=\"fa fa-gift\"></i><span class=\"wa-btn-count\">1</span></a>",
 			"wa-wishlist-btn",
 			"media/image",
-			"	\ntmpl_logo",
+			"\t\ntmpl_logo",
 			"select {",
 			"wa-brand-opt-container",
 			"ty-account-detail",
@@ -670,29 +716,7 @@
 			"ty-no-items",
 			"ty-cart-content__product-elem ty-cart-content__price cm-reload-3849671376",
 			"tr",
-			"td",
-			"table",
-			"tbody",
-			"thead",
-			"</th>",
-			"<th",
-			"tr",
-			"td",
-			"<td",
-			"</td>",
-			"</tr>",
-			"table",
-			"<td>",
-			"<tr>",
-			"price",
-			"ty-cart-content__top-buttons",
-			"ty-cart-statistic__title",
-			"ty-cart-content__product-elem ty-cart-content__image-block",
-			".ty-btn__tertiary",
-			"@tertiary_button",
-			"tertiary_button",
-			".ty-btn__tertiary",
-			"ty-btn__tertiary"
+			"td"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -716,8 +740,37 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/Woody/.gitconfig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 436,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								436,
+								436
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],

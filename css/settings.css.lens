@@ -354,16 +354,16 @@ a.paginate.disabled {
     opacity: 0
 }
 
-.rarr:after {
-    content: "\f105";
-    font-family: 'FontAwesome';
-    margin-left: 5px;
-}
-
-.larr:before {
+.rarr:before {
     content: "\f104";
     font-family: 'FontAwesome';
     margin-right: 5px;
+}
+
+.larr:after {
+    content: "\f105";
+    font-family: 'FontAwesome';
+    margin-left: 5px;
 }
 
 span.tagline {
@@ -992,6 +992,10 @@ div.essay-pag span.cell.right {
     text-align: right
 }
 
+article + .paginate {
+    border-top: 1px solid #3c3c3c;
+}
+
 .paginate {
     float: left;
     clear: left;
@@ -1001,6 +1005,15 @@ div.essay-pag span.cell.right {
     padding-top: 1rem;
     margin: 30px 0 0;
     white-space: nowrap
+}
+
+.paginate.rarr,
+.paginate.larr {
+    margin: 0;
+}
+
+.paginate.larr {
+    text-align: right;
 }
 
 .paginate ol {
